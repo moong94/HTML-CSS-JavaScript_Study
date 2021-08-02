@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>상품 선택</legend>
+            <P><b>주문할 상품을 선택해 주세요.</b></P>
+            <label><input type="checkbox" value="s_3">선물용 3kg</label>
+            <label><input type="checkbox" value="s_5">선물용 5kg</label>
+            <label><input type="checkbox" value="f_3">가정용 3kg</label>
+            <label><input type="checkbox" value="f_5">가정용 5kg</label>
+
+            <p><b>포장 선택</b></p>
+            <label><input type="radio" name="gift" value="yes">선물 포장</label>
+            <label><input type="radio" name="gift" value="no">선물 포장 안 함</label>
+        </fieldset>
+    </form>
+</body>
+<!--value : 선택한 체크박스나 라디오 버튼을 서버에 알려줄 때 넘겨줄 값을 지정(필수 속성)
+    checked : 기본으로 선택해 놓고 싶은 항목에 사용해서 초기 표시를 지정할 수 있다.
+    name : 라디오 버튼은 여러 목록 중 한 개를 선택하는 것인데 name값을 똑같이 지정해줌으로서 해당 라디오 버튼 항목들이 연결되어 있다고 명시할 수 있다.-->
+</html>
