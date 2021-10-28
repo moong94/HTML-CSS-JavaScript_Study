@@ -4,14 +4,14 @@
 ## 기본 형태
 \<<span style="color:blue">TAG</span> <span style="color:skyblue">속성1</span>=<span style="color:orange">"값1"</span> <span style="color:skyblue">속성2</span>=<span style="color:orange">"값2"</span>>content\<<span style="color:blue">/TAG</span>> <- 전체를 요소(element)라고 칭함
 
-[HTML mds](https://developer.mozilla.org/ko/docs/Web/HTML/Element, "HTML 요소 mdn")
+[HTML mds](https://developer.mozilla.org/ko/docs/Web/HTML/Element "HTML 요소 mdn")
 # 
 ※ closed tag가 없는 빈 태그(empty tag)존재 
 
 ### 빈 태그(empty tag)
 \<TAG <span style="color:skyblue">속성1</span>=<span style="color:orange">"값1"</span>/>
 
-[Empty tag mdn](https://developer.mozilla.org/ko/docs/Glossary/Empty_element, "빈 태그 종류")
+[Empty tag mdn](https://developer.mozilla.org/ko/docs/Glossary/Empty_element "빈 태그 종류")
 #
 
 ### Parent Child
@@ -41,7 +41,7 @@
 ### DOCTYPE
 DOCTYPE(DTD, Document Type Definition) : 마크업 언어에서 문서 형식을 정의함. 어떤 HTML 버전으로 문서를 작성하는지 명시
 
-[Document Type declaration](https://en.wikipedia.org/wiki/Document_type_declaration, "DOCTYPE 정보")
+[Document Type declaration](https://en.wikipedia.org/wiki/Document_type_declaration "DOCTYPE 정보")
 
 ### head
 
@@ -73,6 +73,6 @@ DOCTYPE(DTD, Document Type Definition) : 마크업 언어에서 문서 형식을
 
 ### body
 - 각종 태그들을 활용해 웹 페이지에 실질적으로 보여지는 내용에 해당하는 부분
-- [HTML mds](https://developer.mozilla.org/ko/docs/Web/HTML/Element, "HTML 요소 mdn")
+- [HTML mds](https://developer.mozilla.org/ko/docs/Web/HTML/Element "HTML 요소 mdn")
 
-### 작성한 HTML 문서는 [W3C validator](https://validator.w3.org/, "웹 표준 검사 사이트")에 접속하여 웹 표준에 부합한지 테스트 해볼 수 있다.
+### 작성한 HTML 문서는 [W3C validator](https://validator.w3.org "웹 표준 검사 사이트")에 접속하여 웹 표준에 부합한지 테스트 해볼 수 있다.

@@ -46,7 +46,7 @@ Mark up : 꼬리표, 문서 안에서 사용되는 태그들로 구분하는 꼬
     - webp
       - jpg, png, gif를 모두 대체 가능한 이미지 포멧
       - 지원 브라우저의 제약이 있음
-      - [upport browser for webp](https://caniuse.com/webp, "지원 가능 브라우저")
+      - [upport browser for webp](https://caniuse.com/webp "지원 가능 브라우저")
 - 벡터
   - 이미지가 가지고 있는 점, 선, 면의 위치등을 수학적 정보로 표현
   - 확대/축소 시 이미지가 깨지지 않고 용량변화가 없음
