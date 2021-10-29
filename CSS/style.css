@@ -1,3 +1,15 @@
 p {
     color: green;
 }
+
+.box {
+    width: 300px;
+    height: 200px;
+    background: antiquewhite;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.box2 {
+    padding: 20px;
+}
