@@ -60,8 +60,7 @@ DOCTYPE(DTD, Document Type Definition) : 마크업 언어에서 문서 형식을
     - 속성
         - rel = (필수속성) 관계 지정, ex)stylesheet, icon, CSS
         - href = 경로 지정
-
-### style
+        
 - \<style>\</style>
     - CSS 속성을 외부에서 가져오지 않고 HTML 문서 내부에서 작성하고 싶을 때 
 
