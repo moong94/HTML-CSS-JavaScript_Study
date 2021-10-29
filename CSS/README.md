@@ -14,11 +14,24 @@
 
 ### 선택자(Selector)
 - 작성한 HTML에 CSS 스타일을 적용하기 위해 HTML의 특정 요소를 선택하는 Sign (어디에 적용할지 선택, 특정 태그, id, class)
+```css
+TAG {
+    Properties : Value
+}
+
+.Class{
+    Properties : Value
+}
+```
 
 ### 속성(Properties), 값(Value)
 - 선택자에 적용 가능한 스타일(속성)을 특정 값으로 지정
 - HTML의 속성은 Attribute, CSS의 속성은 Properties
 - 속성에 따라 여러 값이 들어갈 수 있음
+    - 단축속성 & 개별속성
+        - ex
+            - margin : 단축속성
+            - margin-top, margin-left, margin-right, margin-bottom : 개별속성
 
 [CSS mdn](https://developer.mozilla.org/ko/docs/Web/CSS "CSS mdn")
 
@@ -53,3 +66,5 @@
 - 외부 .css 파일을 link태그로 절대/상대 경로를 통해 불러와 적용시키는 것
 
 # 
+
+CSS 작성 시 HTML 구조의 순서와 동일하게 작성하는 것이 유지보수에 유리
