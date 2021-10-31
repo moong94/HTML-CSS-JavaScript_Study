@@ -110,5 +110,12 @@ display속성을 사용해서 블록, 인라인 요소를 바꿀 수 있다.
 
 #
 
+### Base Tag
+- 상대경로를 입력할 때 공통된 부분의 주요한 경로를 미리 지정할 수 있음.
+- html 문서 하나당 하나의 base태그만 사용 가능
+
+
+type을 사용할 경우 참고 [MINE Type mdn](https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/MIME_types "MIME type mdn")
+
 
 
