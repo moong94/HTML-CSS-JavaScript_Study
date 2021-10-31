@@ -60,7 +60,7 @@ DOCTYPE(DTD, Document Type Definition) : 마크업 언어에서 문서 형식을
     - 속성
         - rel = (필수속성) 관계 지정, ex)stylesheet, icon, CSS
         - href = 경로 지정
-        
+
 - \<style>\</style>
     - CSS 속성을 외부에서 가져오지 않고 HTML 문서 내부에서 작성하고 싶을 때 
 
@@ -75,3 +75,22 @@ DOCTYPE(DTD, Document Type Definition) : 마크업 언어에서 문서 형식을
 - [HTML mds](https://developer.mozilla.org/ko/docs/Web/HTML/Element "HTML 요소 mdn")
 
 ### 작성한 HTML 문서는 [W3C validator](https://validator.w3.org "웹 표준 검사 사이트")에 접속하여 웹 표준에 부합한지 테스트 해볼 수 있다.
+
+#
+
+### 블록 요소 & 인라인 요소
+
+- 블록요소
+    - div, h1, p
+    - 사용 가능한 최대 가로 너비를 사용
+    - 가로, 세로 사이즈 지정할 수 있다.
+    - 수직으로 쌓인다.
+    - margin, padding 위, 아래, 좌, 우 사용 가능
+- 인라인요소
+    - span, img
+    - 필요한 만큼의 너비를 사용
+    - 가로, 세로 사이즈를 지정할 수 없다.
+    - 수평으로 쌓인다.
+    - margin, padding 위, 아래는 사용할 수 없다.
+
+display속성을 사용해서 블록, 인라인 요소를 바꿀 수 있다.
