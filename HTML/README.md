@@ -94,3 +94,21 @@ DOCTYPE(DTD, Document Type Definition) : 마크업 언어에서 문서 형식을
     - margin, padding 위, 아래는 사용할 수 없다.
 
 display속성을 사용해서 블록, 인라인 요소를 바꿀 수 있다.
+
+# 
+
+### 메타데이터
+문서의 정보를 지칭하는 요소들
+- charset : 페이지의 문자 인코딩 선언
+    - UTF-8 (조합형)
+- content : http-equiv나 name 속성으로 사용
+- http-equiv : 서버나 사용자의 작동방식을 변경할 수 있는 지시를 정의할 수 있음
+- name : 문서레벨의 메타데이터 이름 정의
+    - ex) author, description, generator,...
+
+[Meta mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta "메타데이터 mdn")
+
+#
+
+
+
