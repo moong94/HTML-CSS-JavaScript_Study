@@ -146,4 +146,11 @@ type을 사용할 경우 참고 [MINE Type mdn](https://developer.mozilla.org/ko
 
 #
 
+### article Tag
+독립적으로 구분되거나, 재사용 가능한 영역 설정
+- 독립성 유지하면서 재사용도 가능
+- \<h1>-\<h6>를 포함하여 식별
+- \<time>을 datetime 속성으로 작성
+- [article mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/article "Article mdn")
 
+# 
