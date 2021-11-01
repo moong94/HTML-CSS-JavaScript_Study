@@ -120,12 +120,28 @@ type을 사용할 경우 참고 [MINE Type mdn](https://developer.mozilla.org/ko
 #
 
 ### Header & Footer Tag
-- 전역속성
+- 전역 속성만 포함
 - 후손으로 사용될 수 없다.
 - Header : 소개나 탐색을 돕는 것을 그룹으로 나타냄 [header mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/header "Header mdn")
 - Footer : 일반적으로 작성자, 저작권, 관련 문서의 링크에 대한 정보를 나타냄 [footer mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/header "Footer mdn")
 
 #
+
+### h1 - h6 Tag
+- 6단계의 문서 제목 구현
+- 전역 속성만 포함
+- 문서의 목차를 만드는 것처럼 사용가능
+- 제목 크기의 크기를 줄이기 위해 낮은 단계를 사용하지말고 css의 font-size 속성을 사용해야한다.
+    - 구조를 나타내는 용도로 사용되는 것이므로 글자 크기는 따로 지정해서 사용하는 것이 좋다.
+- h1부터 중간단계를 건너뛰지 말고 순차적으로 기입해야함.
+- h1은 한 문서에 하나만 사용할 것을 권장함.
+- [h1-h6 mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Heading_Elements "h1-h6 mdn")
+#
+
+### main Tag
+페이지의 핵심적인 내용이 담겨져 있는 부분을 나타냄
+- 문서에 하나만 존재
+- 전역 속성만 포함
 
 
 
