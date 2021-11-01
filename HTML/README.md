@@ -117,5 +117,15 @@ display속성을 사용해서 블록, 인라인 요소를 바꿀 수 있다.
 
 type을 사용할 경우 참고 [MINE Type mdn](https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/MIME_types "MIME type mdn")
 
+#
+
+### Header & Footer Tag
+- 전역속성
+- 후손으로 사용될 수 없다.
+- Header : 소개나 탐색을 돕는 것을 그룹으로 나타냄 [header mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/header "Header mdn")
+- Footer : 일반적으로 작성자, 저작권, 관련 문서의 링크에 대한 정보를 나타냄 [footer mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/header "Footer mdn")
+
+#
+
 
 
