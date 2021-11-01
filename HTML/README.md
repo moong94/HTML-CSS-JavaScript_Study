@@ -142,6 +142,8 @@ type을 사용할 경우 참고 [MINE Type mdn](https://developer.mozilla.org/ko
 페이지의 핵심적인 내용이 담겨져 있는 부분을 나타냄
 - 문서에 하나만 존재
 - 전역 속성만 포함
+- [main mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/main "Main mdn")
 
+#
 
 
