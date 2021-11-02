@@ -216,3 +216,20 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### dt, dd, dl Tag
+- dt : 용어 (key)
+- dd : 정의 (value)
+- dl : 용어와 정의의 집합을 dl로 묶어줌
+    - dl안에 dd와 dt가 포함되어 있어야 함.
+```html
+<dl>
+    <dt>용어1</dt>
+    <dd>설명1</dd>
+    <dt>용어2</dt>
+    <dd>설명2</dd>
+</dl>
+```
+- [dt](https://developer.mozilla.org/ko/docs/Web/HTML/Element/dl "dt mdn") / [dd](https://developer.mozilla.org/ko/docs/Web/HTML/Element/li "dd mdn") / [dl](https://developer.mozilla.org/ko/docs/Web/HTML/Element/dl "dl mdn") mdn
+
+#
+
