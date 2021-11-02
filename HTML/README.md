@@ -151,6 +151,7 @@ type을 사용할 경우 참고 [MINE Type mdn](https://developer.mozilla.org/ko
 - 독립성 유지하면서 재사용도 가능
 - \<h1>-\<h6>를 포함하여 식별
 - \<time>을 datetime 속성으로 작성
+- section을 감쌀 수 있다.
 - [article mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/article "Article mdn")
 
 # 
@@ -160,6 +161,7 @@ type을 사용할 경우 참고 [MINE Type mdn](https://developer.mozilla.org/ko
 - \<h1>-\<h6>를 포함하여 식별
 - 영역을 나누는 용도로 사용되어 \<article>보다 유연하게 사용
 - \<div>는 별 다른 의미 없이 영역을 나눈다면, \<section>은 제목을 포함해서 의미를 갖는 영역을 나눈다. 
+- article을 감쌀 수 있다.
 - [section mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/section "Section mdn")
 
 #
