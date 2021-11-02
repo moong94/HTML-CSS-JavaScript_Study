@@ -182,6 +182,11 @@ type을 사용할 경우 참고 [MINE Type mdn](https://developer.mozilla.org/ko
 
 #
 
+### address Tag
+body, article, footer에서 연락처 정보를 제공하기 위해 포함하여 사용
+- 이메일, 전화번호, 주소 등
+- [adress mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/address "Address mdn")
+
 #
 
 #### 일반적으로 영역을 설정하는 요소들은 block요소
