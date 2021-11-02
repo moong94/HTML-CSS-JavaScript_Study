@@ -108,7 +108,7 @@ display속성을 사용해서 블록, 인라인 요소를 바꿀 수 있다.
 
 [Meta mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta "메타데이터 mdn")
 
-#
+# 컨텐츠 구분 태그
 
 ### Base Tag
 - 상대경로를 입력할 때 공통된 부분의 주요한 경로를 미리 지정할 수 있음.
@@ -198,6 +198,21 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 #
 
 #### 일반적으로 영역을 설정하는 요소들은 block요소
+
+#
+
+# 문자 콘텐츠
+
+### ol, ul, li Tag
+- ol : 정렬된 목록, block 요소
+    - type : a,A,i,I,1로 원하는 타입으로 리스트 값을 나타낼 수 있음.
+    - reversed : 거꾸로된 속성
+    - start : 시작하는 숫자 지정
+- ul : 정렬되지 않은 목록, block 요소
+- li : 각 항목, 단독으로 사용 할 수 없으며, ol이나 ul의 자식으로 포함되어야 함, list-item 요소이지만 ol,ul과 함께 쓰이므로 block요소 처럼 사용 됨.
+    - value : 이하 리스트 순서가 해당 숫자로 다시 지정.
+- ol + li, ul + li
+- [ol](https://developer.mozilla.org/ko/docs/Web/HTML/Element/ol "ol mdn") / [ul](https://developer.mozilla.org/ko/docs/Web/HTML/Element/ul "ul mdn") / [li](https://developer.mozilla.org/ko/docs/Web/HTML/Element/li "li mdn") mdn
 
 #
 
