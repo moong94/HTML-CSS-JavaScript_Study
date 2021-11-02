@@ -174,3 +174,17 @@ type을 사용할 경우 참고 [MINE Type mdn](https://developer.mozilla.org/ko
 
 #
 
+### nav Tag
+다른 페이지 링크를 제공하는 영역을 설정
+- 메뉴, 목차, 색인
+- a, ol, ul, li 태그와 함께 많이 사용 됨.
+- [nav mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/nav "Nav mdn")
+
+#
+
+#
+
+#### 일반적으로 영역을 설정하는 요소들은 block요소
+
+#
+
