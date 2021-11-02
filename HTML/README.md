@@ -161,3 +161,14 @@ type을 사용할 경우 참고 [MINE Type mdn](https://developer.mozilla.org/ko
 - 영역을 나누는 용도로 사용되어 \<article>보다 유연하게 사용
 - \<div>는 별 다른 의미 없이 영역을 나눈다면, \<section>은 제목을 포함해서 의미를 갖는 영역을 나눈다. 
 - [section mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/section "Section mdn")
+
+#
+
+### aside Tag
+문서의 별도 콘텐츠를 설정
+- 사이드바
+- 콜아웃 박스
+- [aside mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/aside "Aside mdn")
+
+#
+
