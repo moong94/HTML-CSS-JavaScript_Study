@@ -189,6 +189,14 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### div Tag
+본질적으로 아무것도 나타내지 않는 콘텐츠 영역을 설정
+- css나 js를 삽입해서 특정 영역을 스타일링, 제어를 하기 위해 많이 사용
+- 꾸미는 목적으로 사용
+- [div mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/div "Div mdn")
+
+#
+
 #### 일반적으로 영역을 설정하는 요소들은 block요소
 
 #
