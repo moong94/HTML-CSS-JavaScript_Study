@@ -368,6 +368,12 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### code Tag
+컴퓨터 코드 범위를 설정
+- 특정 문장 안에 코드가 삽입되어 있는 경우 사용
+- 기본적으로 Monospace 글꼴
+- [code mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/code "code mdn")
+
 
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
 
