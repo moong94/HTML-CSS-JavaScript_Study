@@ -398,6 +398,17 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 - [유효한 datetime 값](https://developer.mozilla.org/ko/docs/Web/HTML/Element/time#%EC%9C%A0%ED%9A%A8%ED%95%9C_datetime_%EA%B0%92 "유효한 날짜 문자")
 - [time mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/time "time mdn")
 
+#
+
+### span Tag
+아무런 의미가 없는 요소
+- block 요소인 div와 마찬가지로 inline 요소에서 의미가 없이 사용
+- 활용범위가 넓음
+- [span mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/span "span mdn")
+
+#
+
+
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
