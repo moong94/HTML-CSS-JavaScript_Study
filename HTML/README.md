@@ -256,6 +256,14 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### blockquote Tag
+일반적인 인용문을 설정
+- 외부에서 인용된 정보라는 것을 표시
+- cite 속성 : 인용된 정보의 URL입력
+- [blockquote mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/blockquote "blockquote")
+
+#
+
 #### 일반적으로 영역을 설정하는 요소들은 block요소
 
 #
