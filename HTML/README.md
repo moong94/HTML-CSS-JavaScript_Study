@@ -288,6 +288,17 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 # 
 
+### abbr Tag
+약어를 지정
+- 보통 title 속성을 사용 사용하여 전체 글자나 설명 제공
+```html
+<abbr title="HyperText Markup Language">HTML</abbr> study
+```
+- [abbr mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/abbr "abbr mdn")
+
+#
+
+### 
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
