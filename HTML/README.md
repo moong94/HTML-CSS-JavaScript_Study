@@ -332,6 +332,7 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 - b Tag와 마찬가지로 글자의 범위를 구분하기 위해 사용
 - b Tag가 평범한 글자에 사용된다면 i Tag는 아이콘이나 특수기호에 사용
 - 기본적으로 이탤릭체로 표시
+- [Font awesome 사이트](https://fontawesome.com/ "Font awesome site")를 link하여 사용하면 유용
 - [i mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/i "i mdn")
 
 #
