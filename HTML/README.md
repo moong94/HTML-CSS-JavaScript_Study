@@ -415,6 +415,17 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 - br태그를 여러번 사용해서 간격을 나타내지 말고 나누어지는 요소의 line-height를 조정하여야 한다.
 - [br mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/br "br mdn")
 
+#
+
+### del, ins Tag
+삭제된 텍스트의 범위(del)와 새로 추가된 텍스트의 범위(ins)를 지정
+- cite, datetime 속성 사용가능
+    - cite = URL : 제거나 추가된 이유나 변경사항을 설명하는 정보의 URL 적용가능
+    - datetiem = [유효한 날짜 문자](https://developer.mozilla.org/ko/docs/Web/HTML/Element/time#%EC%9C%A0%ED%9A%A8%ED%95%9C_datetime_%EA%B0%92 "유효한 날짜 문자") : 변경이 언제 일어났는지 명시 가능
+- [del](https://developer.mozilla.org/ko/docs/Web/HTML/Element/del "del mdn") / [ins](https://developer.mozilla.org/ko/docs/Web/HTML/Element/ins "ins mdn") mdn
+
+#
+
 
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
 
