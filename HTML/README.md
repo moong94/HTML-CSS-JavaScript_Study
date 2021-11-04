@@ -408,6 +408,13 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### br Tag
+줄 바꿈 요소
+- 빈 태그 \<br />
+- block요소의 hr 태그의 inline 버전
+- br태그를 여러번 사용해서 간격을 나타내지 말고 나누어지는 요소의 line-height를 조정하여야 한다.
+- [br mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/br "br mdn")
+
 
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
 
