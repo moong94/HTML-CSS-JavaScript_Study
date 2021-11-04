@@ -374,6 +374,16 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 - 기본적으로 Monospace 글꼴
 - [code mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/code "code mdn")
 
+#
+
+### kbd Tag
+키보드에서 사용자 입력을 나타내는 텍스트 범위를 설정
+- Ctrl, Alt처럼 키보드의 특정한 키를 표시할 때 유용
+- 기본적으로 Monospace 글꼴
+- [kbd mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/kbd "kbd mdn")
+
+#
+
 
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
 
