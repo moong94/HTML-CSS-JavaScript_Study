@@ -356,6 +356,18 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 - 긴 인용문일 경우 block요소인 blockquote 사용
 - [q mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/cite "q mdn")
 
+#
+
+### u Tag
+밑줄이 있는 글자를 설정
+- 의미가 없는 태그이므로 css로 커버 가능
+- 순수하게 꾸미는 용도의 요소로 사용
+- a tag와 헷갈릴 수 있는 위치에서 사용하지 않도록 주의
+- css의 text-decoration : underline;을 사용할 것을 권장
+- [u mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/u "u mdn")
+
+#
+
 
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
 
