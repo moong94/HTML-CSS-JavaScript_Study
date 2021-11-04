@@ -384,6 +384,14 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### sup, sub Tag
+문자를 첨자로 설정
+- sup : 위 첨자
+- sub : 아래 첨자
+-[sup](https://developer.mozilla.org/ko/docs/Web/HTML/Element/sup "sup mdn") / [sub](https://developer.mozilla.org/ko/docs/Web/HTML/Element/sub "sub mdn") mdn
+
+#
+
 
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
 
