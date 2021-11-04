@@ -267,3 +267,27 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 #### 일반적으로 영역을 설정하는 요소들은 block요소
 
 #
+
+# 인라인 텍스트
+
+### a Tag
+현제 문서를 제외한 다른 문서의 URL로 연결할 수 있는 하이퍼링크를 설정
+- download : 해당 요소가 파일을 다운로드 받는 용도로 사용됨을 의미
+    - 해당 URL을 파일 형태로 download
+- href : 링크 URL 속성, 필수처럼 사용해야하지만 생략 가능
+    - #id를 통해 현재 문서의 해당 id가 위치한 곳으로 이동할 수 있다.
+- hreflang : 연결된 페이지의 언어를 설정
+    - ko, en ...
+- rel : 현재 문서와 링크 URL과의 관계
+    - license, prev, next ...
+- target : 링크 URL의 표시 위치
+    - _self : 현재 탭에서 연결
+    - _blank : 새 탭에서 연결
+- type : 링크 URL의 MIME 타입
+- [a mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/a "a mdn")
+
+# 
+
+#### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
+
+#### class는 고유하지 않아도 되지만 id는 고유해야한다.
