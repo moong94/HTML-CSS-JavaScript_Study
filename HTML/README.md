@@ -197,10 +197,6 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
-#### 일반적으로 영역을 설정하는 요소들은 block요소
-
-#
-
 # 문자 콘텐츠
 
 ### ol, ul, li Tag
@@ -233,3 +229,21 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### p Tag
+하나의 문단을 설정
+- 문단, 문장, 단락의 구분을 위해 사용
+- [p mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/p "p mdn")
+
+#
+
+### hr Tag
+문단의 분리를 위해 사용
+- 시각적으로 수평선 표시가 되지만 의미적 관점으로 사용해야 함.
+- 빈 태그 \<hr />
+- [hr mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/hr "hr mdn")
+
+#
+
+#### 일반적으로 영역을 설정하는 요소들은 block요소
+
+#
