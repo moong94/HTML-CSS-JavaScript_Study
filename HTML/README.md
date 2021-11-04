@@ -298,7 +298,45 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
-### 
+### b Tag
+문체가 다른 글자의 범위를 <b>구분</b>하는데 설정
+- 특별한 의미를 가지지 않는 부분에 사용
+- 읽기 흐름에 도움을 주는 용도로 사용
+- 기본적으로 글자가 두껍게 표시
+- 글자를 두껍게 표시하려면 기본적으로 css로 사용할 것.
+- [b mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/b "b mdn")
+
+### mark Tag
+사용자의 <b>관심을 끌기 위해</b> 하이라이팅 할 때 사용
+- 기본적으로 형광펜을 사용할 때 처럼 글자 배경이 노란색으로 표시됨.
+- 의미보다 시각적인 부분에 특화
+- [mark mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/mark "mark mdn")
+
+
+### em Tag
+단순한 <b>의미 강조</b>를 표시
+- 중첩 가능
+- 중첩될수록 강조의 의미가 강해짐
+- 기본적으로 이탤릭체로 표시
+- 정보통신보조기기 등에서 구두 강조로 발음됨
+- [em mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/em "em mdn")
+
+### strong Tag
+의미의 <b>중요성</b>을 나타내기 위해 사용.
+- b Tag와 마찬가지로 글자가 두껍게 표시
+- 의미의 중요성에 초점
+- [strong mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/strong "strong mdn")
+
+### i Tag
+문체가 다른 글자의 범위를 <b>구분</b>하는데 설정
+- b Tag와 마찬가지로 글자의 범위를 구분하기 위해 사용
+- b Tag가 평범한 글자에 사용된다면 i Tag는 아이콘이나 특수기호에 사용
+- 기본적으로 이탤릭체로 표시
+- [i mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/i "i mdn")
+
+#
+
+
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
