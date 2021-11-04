@@ -307,7 +307,7 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 - [b mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/b "b mdn")
 
 ### mark Tag
-사용자의 <b>관심을 끌기 위해</b> 하이라이팅 할 때 사용
+사용자의 <b>(시각적)관심을 끌기 위해</b> 하이라이팅 할 때 사용
 - 기본적으로 형광펜을 사용할 때 처럼 글자 배경이 노란색으로 표시됨.
 - 의미보다 시각적인 부분에 특화
 - [mark mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/mark "mark mdn")
