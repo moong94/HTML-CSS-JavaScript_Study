@@ -241,6 +241,7 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 - 시각적으로 수평선 표시가 되지만 의미적 관점으로 사용해야 함.
 - 빈 태그 \<hr />
 - 줄바꿈을 할 시 코드에서 줄바꿈을 하는 것이 아니라 블록 요소들을 사용해 줄바꿈을 해야함.
+- hr 태그도 사각형 요소이므로 border-top, border-bottm, border-left, border-right로 부분적으로 선을 지정할 수 있다.
 - [hr mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/hr "hr mdn")
 
 #
