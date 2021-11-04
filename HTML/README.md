@@ -246,6 +246,15 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### pre Tag
+서식이 미리 지정된 텍스트 설정
+- 텍스트 공백과 줄바꿈을 유지하여 표시할 수 있음
+- 기본적으로 Monospace 글꼴로 표시됨.
+- 코드에 작성된 양식 그대로 표시된다는 뜻.
+- [pre mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/pre "pre mdn")
+
+#
+
 #### 일반적으로 영역을 설정하는 요소들은 block요소
 
 #
