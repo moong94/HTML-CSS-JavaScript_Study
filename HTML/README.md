@@ -337,6 +337,21 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### dfn Tag
+용어를 정의할 때 사용
+- dl, dt, dd는 설명하려는 용어가 사전처럼 많을 때 유용하다면 dfn은 특정 하나의 용어를 설명할 때 유용
+- [dfn mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/dfn "dfn mdn")
+
+#
+
+### cite Tag
+창작물에 대한 참조를 설정
+- 책, 논문, 영화, TV 프로그램, 노래, 게임 등 창작물의 제목을 참조할 때 사용
+- [cite mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/cite "cite mdn")
+
+#
+
+
 
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
 
