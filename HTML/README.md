@@ -392,6 +392,11 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### time Tag
+날짜나 시간을 나타내기 위한 목적으로 사용
+- datetime 속성으로 유효한 정확한 날짜 문자를 사용하여 작성
+- [유효한 datetime 값](https://developer.mozilla.org/ko/docs/Web/HTML/Element/time#%EC%9C%A0%ED%9A%A8%ED%95%9C_datetime_%EA%B0%92 "유효한 날짜 문자")
+- [time mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/time "time mdn")
 
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
 
