@@ -351,6 +351,10 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### q Tag
+짧은 인용문을 설정
+- 긴 인용문일 경우 block요소인 blockquote 사용
+- [q mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/cite "q mdn")
 
 
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
