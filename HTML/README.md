@@ -4,7 +4,7 @@
 ## 기본 형태
 \<<span style="color:blue">TAG</span> <span style="color:skyblue">속성1</span>=<span style="color:orange">"값1"</span> <span style="color:skyblue">속성2</span>=<span style="color:orange">"값2"</span>>content\<<span style="color:blue">/TAG</span>> <- 전체를 요소(element)라고 칭함
 
-[HTML mds](https://developer.mozilla.org/ko/docs/Web/HTML/Element "HTML 요소 mdn")
+[HTML mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element "HTML 요소 mdn")
 # 
 ※ closed tag가 없는 빈 태그(empty tag)존재 
 
@@ -426,7 +426,58 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
-
 #### inline 요소의 모양을 바꾸기 위해서 display 속성을 block으로 바꾸어 사용할 수 있다.
+
+#
+
+# 멀티미디어
+
+### img Tag
+이미지 삽입
+- 빈 태그 \<img />
+- 속성
+    - src : 이미지 URL(필수)
+    - alt : 이미지 대체 텍스트(필수)
+    - width : 이미지 가로 너비
+    - height : 이미지 세로 너비
+        - width, height 둘 중 하나만 사용하면 나머지 속성은 비율에 맞게 조정됨.
+    - srcset : 브라우저에게 제시할 이미지 URL과 원본 크기의 목록을 정의
+        - 반응형으로 처리 할 때 주로 사용
+        - 경로 너비를 여러개 작성하면 뷰 포트에 맞춰서 적합한 이미지를 골라낼 수 있음
+        - srcset이 적용된 환경에서는 src가 적용되지 않는다.
+        - 출력 될 이미지의 목록
+        - w, x 단위로 작은 순서부터 입력해야함.
+            - w : 이미지의 원본 크기 중 가로 너비를 의미 ex) 400 x 300px -> 400w
+            - x : 이미지의 비율 의도를 의미 (몇 배인지)
+        - 고정된 이미지 크기를 유지하기 위해 width 속성을 추가할 수 있다.
+
+        ```html
+        <img
+            srcset="image1.png 400w,
+                    image2.png 700w,
+                    image3.png 1000w"
+            src="image.png"
+            alt="image">
+        
+        <img
+            srcset="image1.png 1x,
+                    image2.png 1.5x,
+                    image3.png 2x"
+            src="image.png"
+            alt="image">
+        ```
+    - size : 미디어의 조건과 해당 조건일 때 이미지 최적화 크기의 목록을 정의
+        - 반응형으로 처리 할 때 주로 사용
+        - "(미디어 조건) 이미지 크기" 형태로 작성하여 최적화된 조건을 명시
+        ```html
+        <img
+            srcset="image1.png 400w,
+                    image2.png 700w,
+                    image3.png 1000w"
+            sizes="(min-width: 1000px) 700px"   <!--최소 너비가 1000px 이상일 때 최적화 출력 크기를 700px로 지정-->        
+            src="image.png"
+            alt="image">
+        ```
+- [img mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/img "img mdn")
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
