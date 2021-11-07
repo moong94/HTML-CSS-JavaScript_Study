@@ -548,5 +548,12 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### canvas Tag
+Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜더링
+- 기본적으로 JavaScript를 활용해서 그림을 그려나감.
+- [canvas mdn](https://developer.mozilla.org/ko/docs/Web/API/Canvas_API "canvas mdn")
+
+#
+
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
