@@ -518,4 +518,18 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### figure, figcaption Tag
+- figure : 이미지나 삽화 도표 등의 영역 설정
+- figcaption : figure에 포함되어 이미지나 삽화 등의 설명을 표시
+```html
+    <figure>
+        <img src="" alt=""/>
+        <figcaption>이미지 설명</figcaption>
+    </figure>
+```
+- [figure](https://developer.mozilla.org/ko/docs/Web/HTML/Element/figure "figure mdn") / [figcaption](https://developer.mozilla.org/ko/docs/Web/HTML/Element/figcaption "figcaption mdn") mdn
+
+#
+
+
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
