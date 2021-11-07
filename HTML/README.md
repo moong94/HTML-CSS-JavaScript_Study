@@ -498,5 +498,24 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### video Tag
+동영상 콘텐츠(mp4) 삽입
+- 속성
+    - autoplay : 사이트에 들어가자마자 바로 재생
+    - controls : 재생버튼, 정지버튼, 음량 등 제어 메뉴 표시
+    - crossorigin : 외부 특정 사이트로부터 동영상을 가져올 때 동일한 출처인지 확인
+    - loop : 소리 콘텐츠 재생이 끝나면 처음부터 다시 재생
+    - muted : 음소거 여부
+    - poster : 동영상 썸네일 이미지 URL
+    - preload : 페이지가 로드될 때 파일을 미리 어떻게 로드해 놓을 지 지정
+        - none : 로드하지 않음,(플레이가 되면 로드 시작)
+        - metadata : 기본값, 메타데이터만 로드해 놓음(기본적인 정보)
+        - auto : 전체 파일 로드
+    - src : 콘텐츠 URL
+    - width : 동영상 가로 너비
+    - height : 동영상 세로 너비
+- [video mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Video "video mdn")
+
+#
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
