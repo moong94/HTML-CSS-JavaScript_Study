@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML canvas practice</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="200" height="150"></canvas>
+    <script>
+      const canvas = document.getElementById("canvas");
+      const ctx = canvas.getContext("2d");
+      ctx.fillStyle = "rgb(200,0,0)";
+      ctx.fillRect(10, 10, 50, 50);
+      ctx.fillStyle = "rgb(0,0,200,0.5)";
+      ctx.fillRect(30, 30, 50, 50);
+    </script>
+  </body>
+</html>
