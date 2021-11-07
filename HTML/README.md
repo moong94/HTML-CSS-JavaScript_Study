@@ -531,5 +531,22 @@ body, article, footer에서 연락처 정보를 제공하기 위해 포함하여
 
 #
 
+### iframe Tag
+다른 HTML 페이지를 현재 페이지에 삽입
+- 속성
+    - name : 프레임의 이름
+    - src : 포함할 문서의 URL
+    - width : 프레임의 가로 너비
+    - height : 프레임의 세로 너비
+    - allowfullscreen : 전체 화면 모드 사용 여부
+    - frameborder : 프레임 테두리 사용 여부 (0,1)
+    - sandbox : 보안을 읽기 위한 읽기 전용으로 삽입
+        - allow-form : 양식 제출 가능
+        - allow-scriots : 스크립트 실행 가능
+        - allow-same-origin : 같은 출처(도메인)의 리소스 사용 가능
+- [iframe mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/iframe "iframe mdn")
+
+#
+
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
