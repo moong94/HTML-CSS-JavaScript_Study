@@ -642,5 +642,28 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 
 #
 
+# 양식
+
+### form Tag
+웹서버에 정보를 제출하기 위한 양식 범위 지정
+- 여러 입력 양식을 하나의 form으로 묶어서 특정 서버로 전송
+- form이 다른 form을 자식 요소로 포함할 수 없다.
+- 속성
+    - action : 전송한 정보를 처리할 웹페이지의 URL
+    - autocomplete : 사용자가 이전에 입력한 값으로 자동 완성 기능을 사용할 것인지 여부
+    - method : 서버로 전송할 HTTP 방식
+        - GET : 양식의 정보가 URL에 담겨져서 전송
+        - POST : 양식의 정보가 URL에는 담겨져있지 않음, 의도하는 경우에는 정보를 파악할 수 있으므로 암호화 후 전송하는 방식을 주로 사용한다. 
+    - name : 서버로 양식을 전송할 때 양식의 고유한 이름을 지정해서 구분 가능하게 전송
+    - novalidate : 서버로 전송시 양식 데이터의 유효성을 검사하지 않도록 지정
+        - 양식에 맞지 않으면 전송하지 않는 것이 기본값이지만 novalidate가 지정되면 양식을 무시해도 양식을 전송
+    - target : 서버로 전송 후 응답받을 방식을 지정
+        - _self, _blank
+- display : block
+- [form mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/form "form mdn")
+
+#
+
+
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
