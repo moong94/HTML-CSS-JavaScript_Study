@@ -571,6 +571,12 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
     - type : MIME 타입
 - [script mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/script "script mdn")
 
+#
+
+### noscript Tag
+스크립트를 지원하지 않는 경우 삽입할 HTML을 정의
+- 스크립트를 지원하지 않는 일부 브라우저의 경우 (현재는 거의 없음)
+- [noscript mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/noscript "noscript mdn")
 
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
