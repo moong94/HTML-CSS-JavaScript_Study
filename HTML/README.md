@@ -621,6 +621,17 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 
 #
 
+### colgroup, col Tag
+표의 열들을 공통적으로 정의하는 컬럼(\<col>)과 컬럼의 집합(\<colgroup>)
+- 속성
+    - span : 연속되는 열의 수
+- colgroup : display : table-column-group
+- col : display : table-column
+    - 빈 태그 \<col />
+- [colgroup](https://developer.mozilla.org/ko/docs/Web/HTML/Element/colgroup "colgroup mdn") / [col](https://developer.mozilla.org/ko/docs/Web/HTML/Element/col "col mdn") mdn
+
+#
+
 
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
