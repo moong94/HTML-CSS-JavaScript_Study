@@ -698,12 +698,31 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 
 #
 
-### label tag
+### label Tag
 라벨 가능 요소의 제목
 - for 속성으로 라벨 가능 요소를 참조하거나 콘텐츠로 포함
 - 라벨 가능 요소 : button, input, progress, select, textarea
 - display : inline
 - [label mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/label "label mdn")
+
+#
+
+### button Tag
+선택 가능한 버튼을 지정
+- input type으로 만들 수 있지만 직관적으로 구별되는 button 생성
+- 속성
+    - autofocus : 페이지가 로드될 때 자동으로 포커스(커서 위치)
+        - 문서 내에 유일하게 존재해야 함.
+    - disabled : 양식을 비활성화
+    - form : \<form>의 id 속성 값을 연결하면 form 안에 작성되어 있지 않더라도 연결해서 사용가능하게 함.
+    - name : 양식이 가지고 있는 이름
+        - 해당하는 데이터가 어떤 데이터를 가지고 있는지 이름 지정
+    - type : 버튼의 타입
+        - button, reset, submit
+- display : inline-block
+- [button mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/button "button mdn")
+
+#
 
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
