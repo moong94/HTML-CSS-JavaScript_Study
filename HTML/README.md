@@ -744,7 +744,16 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 
 #
 
+### fieldset, legend Tag
+같은 목적의 양식을 그룹화\<fieldset>하여 제목\<legend>을 지정
+- fieldset : 같은 목적의 양식을 그룹화
+    - 속성
+        - disabled : 그룹 내 모든 양식 요소를 비활성화
+        - form : 그룹이 속할 하나 이상의 \<form>의 id 속성 값
+        - name : 그룹의 이름
+- [fieldset](https://developer.mozilla.org/ko/docs/Web/HTML/Element/fieldset "fieldset mdn") / [legend](https://developer.mozilla.org/ko/docs/Web/HTML/Element/legend "legend mdn") mdn
+    
+#
 
-    
-    
+
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
