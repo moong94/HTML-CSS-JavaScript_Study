@@ -578,5 +578,40 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 - 스크립트를 지원하지 않는 일부 브라우저의 경우 (현재는 거의 없음)
 - [noscript mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/noscript "noscript mdn")
 
+#
+
+# 표 콘텐츠
+
+### table, tr, th, td Tag
+데이터 표 생성 \<table>, 행 \<tr>, 열 (\<th>, \<td>)
+- table
+    - 기본적으로 block요소처럼 동작
+    - display : table
+- tr
+    - display : table-row
+- th : 머리글 칸 지정
+    - 속성
+        - abbr : 열에 대한 간단한 설명
+        - headers : 관련된 하나 이상의 다른 머리글 칸 id 속성 값(상위 th에 연결하는 것)
+        - colspan : 확장하려는(병합) 열의 수
+        - rowspan : 확장하려는(병합) 행의 수
+        - scope : 자신이 누구의 머리글 칸인지 명시
+            - col : 자신의 열
+            - colgroup : 모든 열
+            - row : 자신의 행
+            - rowgroup : 모든 행
+            - auto : 기본값
+    - display : table-cell
+- td : 일반 칸을 지정
+    - 속성
+        - headers : 관련된 하나 이상의 다른 머리글 칸 id 속성 값(th에 연결하는 것)
+        - colspan : 확장하려는(병합) 열의 수
+        - rowspan : 확장하려는(병합) 행의 수
+    - display : table-cell
+- [table](https://developer.mozilla.org/ko/docs/Web/HTML/Element/table "table mdn") / [tr](https://developer.mozilla.org/ko/docs/Web/HTML/Element/tr "tr mdn") / [th](https://developer.mozilla.org/ko/docs/Web/HTML/Element/th "th mdn") / [td](https://developer.mozilla.org/ko/docs/Web/HTML/Element/td "td mdn") mdn
+
+#
+
+
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
