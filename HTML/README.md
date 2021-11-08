@@ -696,6 +696,14 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
     - value : 양식의 초기 값
 - [input mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input "input mdn")
 
+#
+
+### label tag
+라벨 가능 요소의 제목
+- for 속성으로 라벨 가능 요소를 참조하거나 콘텐츠로 포함
+- 라벨 가능 요소 : button, input, progress, select, textarea
+- display : inline
+- [label mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/label "label mdn")
 
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
