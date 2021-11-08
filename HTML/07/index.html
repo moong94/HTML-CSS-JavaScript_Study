@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th abbr="Data" scope="colgroup" colspan="2" id="th-data">데이터</th>
+        </tr>
+        <tr>
+            <th abbr="Type" scope="col" headers="th-data">데이터 타입</th>
+            <th abbr="Value" scope="col" headers="th-data">데이터 값</th>
+        </tr>
+        <tr>
+            <td>알파벳</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>숫자</td>
+            <td>7</td>
+        </tr>
+    </table>   
+    <br>
+    <table>
+        <tr>
+            <th id="th-data" rowspan="2">데이터</th>
+            <th headers="th-data" id="th-type">타입</th>
+            <td headers="th-type">알파벳</td>
+            <td headers="th-type">숫자</td>
+        </tr>
+        <tr>
+            <th headers="th-data" id="th-value">값</th>
+            <td headers="th-value">A</td>
+            <td headers="th-value">7</td>
+        </tr>
+    </table>   
+</body>
+</html>
