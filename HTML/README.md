@@ -632,6 +632,15 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 
 #
 
+### thead, tbody, tfoot Tag
+표의 머리글\<thead>, 본문\<tbody>, 바닥글\<tfoot> 지정
+- 기본적으로 테이블의 레이아웃에 영향을 주지 않음
+- thead : display : table-header-group
+- tbody : display : table-row-group
+- tfoot : display : table-footer-group
+- [thead](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody "tbody mdn") / [tbody](https://developer.mozilla.org/ko/docs/Web/HTML/Element/tbody "tbody mdn") / [tfoot](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot "tfoot mdn") mdn
+
+#
 
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
