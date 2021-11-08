@@ -612,6 +612,15 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 
 #
 
+### caption Tag
+표의 제목을 설정
+- table당 하나의 caption만 사용 가능
+- 열리는 table tag 바로 다음에 작성해야 함.
+- display : table-caption
+- [caption mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/caption "caption mdn")
+
+#
+
 
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
