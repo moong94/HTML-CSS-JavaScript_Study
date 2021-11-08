@@ -555,5 +555,22 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 
 #
 
+### script Tag
+스크립트 코드를 문서에 포함하거나 참조
+- 속성
+    - async : 스크립트의 비동기적 실행 여부
+        - 동기적 : 코드가 위에서부터 순차적으로 실행
+        - 비동기적 : 필요한 코드가 어디 있더라도 불러와서 실행 가능
+        - src 속성 필수
+    - crossorigin : 별도의 도메인을 사용하는 사이트의 오류 로깅을 허용하기 위해 사용
+    - defer : 문서 파싱 후 작동 여부
+        - 실행 시점을 제어 가능
+        - defer가 없을 경우 물리적인 순서를 강제한 것
+    - src : 참조할 외부 스크립트 URL
+        - 외부의 js파일을 가져왔다면 script 내부에 작성된 스크립트 내용은 무시됨.
+    - type : MIME 타입
+- [script mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/script "script mdn")
+
+
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
