@@ -664,6 +664,38 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 
 #
 
+### input Tag
+사용자에게 입력 받을 데이터 양식
+- 빈 태그 \<input />
+- HTML에서 가장 복잡하고 가장 강력한 요소 중 하나.
+- 속성
+    - autocomplete : 사용자가 이전에 입력한 값으로 자동 완성 기능을 사용할 것인지 여부
+    - autofocus : 페이지가 로드될 때 자동으로 포커스(커서 위치)
+        - 문서 내에 유일하게 존재해야 함.
+    - checked : 양식이 선택되었음을 표시
+        - type이 radio, checkbox일 경우에만 사용 가능
+    - disabled : 양식을 비활성화
+    - form : \<form>의 id 속성 값을 연결하면 form 안에 작성되어 있지 않더라도 연결해서 사용가능하게 함.
+    - list : 참조할 \<datalist>의 id 속성 값
+    - max, min : 지정 가능한 최대 값, 최소 값
+        - type이 number일 경우에만 사용 가능
+    - maxlenght : 입력 가능한 최대 문자 수
+        - tpye이 text, email, password, tel, url일 경우에만
+    - multiple : 둘 이상의 값을 입력 할 수 있는지 여부
+        - type이 email, file일 경우에만, email일 경우 쉼표(,)로 구분
+    - name : 양식이 가지고 있는 이름
+        - 해당하는 데이터가 어떤 데이터를 가지고 있는지 이름 지정
+    - placeholder : 사용자가 입력할 값의 힌트
+    - readonly : 웹 상에서 수정 불가한 읽기 전용
+    - step : 유효한 증감 숫자의 간격
+        - type 속성 값이 number, range 일 경우에만
+    - src : type이 image인 경우 이미지의 URL
+    - alt : type이 image인 경우 이미지의 대체 텍스트
+    - type : 입력 받을 데이터의 종류
+        - [type 유형](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input#%3Cinput%3E_%EC%9C%A0%ED%98%95 "타입 유형")
+    - value : 양식의 초기 값
+- [input mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input "input mdn")
+
 
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
