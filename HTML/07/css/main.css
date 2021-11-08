@@ -4,7 +4,7 @@ table {
 
 th {
     border: 1px solid red;
-    background: gray;
+    padding: 10px;
 }
 
 td {
