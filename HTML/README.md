@@ -887,8 +887,12 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 - true, false, auto(기본 값)
 - [draggable mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes/draggable "draggable mdn")
 
+#
 
+### hidden
+요소를 숨김
+- 실제로는 만들어져 있는 요소이지만 화면상에서 보이지 않도록 지정
+- [hidden mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes/hidden "hidden mdn")
 
-
-
+#
 
