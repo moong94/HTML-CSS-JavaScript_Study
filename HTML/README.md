@@ -769,17 +769,18 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 - \<datalist> : \<input>에 미리 정의된 옵션을 지정하여 자동완성 기능을 제공하는데 사용
     - \<input>의 list 속성 바인딩
     - \<option>을 포함하여 정의된 옵션을 지정
-    - ```html
-    <input type="text" list="fruits">
+    - \<input>으로 양식을 미리 지정해놓고 \<input>의 list 속성과 \<datalist>의 id 속성을 연결하여 사용
+```html
+<input type="text" list="fruits">
 
 <datalist id="fruits">
-  <option>Apple</option>
-  <option>Orange</option>
-  <option>Banana</option>
-  <option>Mango</option>
-  <option>Fineapple</option>
+    <option>Apple</option>
+    <option>Orange</option>
+    <option>Banana</option>
+    <option>Mango</option>
+    <option>Fineapple</option>
 </datalist>
-    ```
+```
 - \<optgroup> : \<option>을 그룹화
     - 속성
         - label : (필수) 옵션 그룹의 이름
@@ -812,5 +813,16 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
   </optgroup>
 </select>
 ```
+- [select] / [datalist] / [optgroup] / [option] mdn
 
+#
+
+### progress Tag
+작업의 완료 진행률을 표시(로딩 바)
+- 속성
+    - max : 작업의 총 량
+    - value : 작업의 진행량
+        - 값이 가변하는 경우 JavaScript로 값을 조정함
+        - max 속성이 생략된 경우 0~1 사이의 숫자를 적어야 함.
+- [progress mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/progress "progress mdn")
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
