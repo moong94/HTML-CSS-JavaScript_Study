@@ -851,3 +851,30 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 
 #
 
+### style
+요소에 적용할 CSS 선언
+- HTML 어디에서든 사용가능
+- [style mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/style "style mdn")
+
+#
+
+### title
+요소의 정보(설명)을 지정
+- 해당 태그에 마우스 오버 후 기다리면 지정된 정보(설명)가 확인 됨.
+- [title mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes/title "title mdn")
+
+#
+
+### lang
+요소의 언어를 지정
+- en, ko, fr ...
+- 주로 html Tag에서 사용
+- [lang mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes/lang "lang mdn")
+
+#
+
+
+
+
+
+
