@@ -99,7 +99,7 @@ CSS 작성 시 HTML 구조의 순서와 동일하게 작성하는 것이 유지�
 
 # 선택자
 
-### 기본 선택자(Basic Selectors)
+## 기본 선택자(Basic Selectors)
 - 전체 선택자(Universal Selector)
     - 요소 내부의 모든 요소를 선택
 ```css
@@ -122,7 +122,7 @@ CSS 작성 시 HTML 구조의 순서와 동일하게 작성하는 것이 유지�
     #id {};
 ```
 
-### 복합 선택자(Combinators)
+## 복합 선택자(Combinators)
 기본 선택자들을 조합해서 사용
 - 일치 선택자(Basic Combinator)
     - 붙여서 표현한 기본 선택자들의 조건이 모두 만족하는 경우 스타일 적용
@@ -168,4 +168,25 @@ CSS 작성 시 HTML 구조의 순서와 동일하게 작성하는 것이 유지�
     <B></B>     <!-- 다음 B 모두 선택-->
     <B></B>     <!-- 다음 B 모두 선택-->
 </P>
+```
+
+## 가상 클래스 선택자(Pseudo-Classes Selectors)
+기본 선택자를 활용(:)
+
+### hover
+기본 선택자에 마우스 포인터가 올라가 있는 동안에만 선택
+```css
+    E:hover {};
+```
+
+### active
+기본 선택자를 마우스로 클릭하고 있는 동안에만 선택
+```css
+    E:active {};
+```
+
+### focus
+[대화형 콘텐츠](https://developer.mozilla.org/ko/docs/Web/Guide/HTML/Content_categories#%EB%8C%80%ED%99%94%ED%98%95_%EC%BD%98%ED%85%90%EC%B8%A0 "대화형 콘텐츠") 선택자가 포커스 된 동안에만 선택
+```css
+    E:focus {};
 ```
