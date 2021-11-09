@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section {
+            width: 100px;
+            color: red;
+            background-color: blue;
+        }
+
+        #section {
+            width:200px;
+            color:yellow;
+            background-color: violet;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section">a</div>
+    <div class="section">b</div>
+    <div class="section">c</div>
+    <div class="section">d</div>
+    <div id="section">e</div>
+
+    <script>
+        const section = document.querySelector('.section');
+        const sectionId = document.getElementById("section");
+
+    </script>
+</body>
+
+</html>
