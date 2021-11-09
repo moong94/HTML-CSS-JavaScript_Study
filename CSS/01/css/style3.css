@@ -1,0 +1,31 @@
+.alpha li:first-child {
+    color: blue;
+}
+
+.alpha li:last-child {
+    color: red;
+}
+
+.alpha li:nth-child(2n) {
+    color: magenta;
+}
+
+.alpha li:nth-child(5) {
+    color: green;
+}
+
+.numbers {
+    font-size: 40px;
+}
+
+.numbers p:nth-of-type(2) {
+    color: red;
+}
+
+.number {
+    font-size: 20px;
+}
+
+.number li:not(.three) {
+    color: red;
+}
