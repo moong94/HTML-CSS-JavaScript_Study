@@ -908,3 +908,10 @@ Tab키를 이용해 요소를 순차적으로 포커스 탐색할 순서를 지�
 
 #
 
+# HTML 특수 기호(Entities)
+- \&nbsp; : 띄어쓰기
+- \&lt; : <
+- \&gt; : >
+- \&amp; : &
+- [HTML Entities List](https://www.freeformatter.com/html-entities.html "HTML Entities List")
+
