@@ -873,6 +873,15 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 
 #
 
+### data-*
+사용자가 정의하는 데이터 속성을 지정
+- 일반적으로 JavaScript에서 이용할 수 있는 데이터를 HTML에서 저장하는 용도로 사용.
+- HTML에서 data를 보관하고 있다가 JavaScript에서 사용 가능
+- [data-* mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes/data-* "data-* mdn")
+
+#
+
+
 
 
 
