@@ -755,5 +755,62 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
     
 #
 
+### select, datalist, optgroup, option Tag
+옵션의 선택 메뉴 제공
+- 옵션(\<option>,\<optgroup>)의 선택메뉴\<select>나 자동완성\<datalist>을 제공
+- \<select> : 옵션을 선택하는 메뉴
+    - 속성
+        - autocomplete : 사용자가 이전에 입력한 값으로 자동 완성 기능을 사용할 것인지 여부
+        - disabled : 양식을 비활성화
+        - form : \<form>의 id 속성 값을 연결하면 form 안에 작성되어 있지 않더라도 연결해서 사용가능하게 함.
+        - multiple : 다중 선택 여부
+        - name : 선택 메뉴의 이름
+        - size : 한 번에 볼 수 있는 행의 개수
+- \<datalist> : \<input>에 미리 정의된 옵션을 지정하여 자동완성 기능을 제공하는데 사용
+    - \<input>의 list 속성 바인딩
+    - \<option>을 포함하여 정의된 옵션을 지정
+    - ```html
+    <input type="text" list="fruits">
+
+<datalist id="fruits">
+  <option>Apple</option>
+  <option>Orange</option>
+  <option>Banana</option>
+  <option>Mango</option>
+  <option>Fineapple</option>
+</datalist>
+    ```
+- \<optgroup> : \<option>을 그룹화
+    - 속성
+        - label : (필수) 옵션 그룹의 이름
+        - disabled : 옵션 그룹을 비활성화
+- \<option> : \<select>나 \<datalist>에서 사용될 옵션
+    - 선택적으로 빈 태그로 사용 가능
+    - 속성
+        - disabled : 옵션을 비활성화
+        - label : 화면에 표시될 옵션의 제목
+        - selected : 옵션이 선택되었음을 표시
+        - value : 서버에 양식으로 제출될 값
+        - label과 value의 경우 태그 안에 내용이 대신할 수 있음 
+
+```html
+<select>
+  <optgroup label="Coffee">
+    <option>Americano</option>
+    <option>Caffe Mocha</option>
+    <option label="Cappuccino" value="Cappuccino"></option>
+  </optgroup>
+  <optgroup label="Latte" disabled>
+    <option>Caffe Latte</option>
+    <option>Vanilla Latte</option>
+  </optgroup>
+  <optgroup label="Smoothie">
+    <option>Plain</option>
+    <option>Strawberry</option>
+    <option>Banana</option>
+    <option>Mango</option>
+  </optgroup>
+</select>
+```
 
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
