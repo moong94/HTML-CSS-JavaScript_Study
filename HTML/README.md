@@ -825,4 +825,29 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
         - 값이 가변하는 경우 JavaScript로 값을 조정함
         - max 속성이 생략된 경우 0~1 사이의 숫자를 적어야 함.
 - [progress mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Element/progress "progress mdn")
+
+#
+
+# 전역속성
+모든 HTML 요소에서 공통적으로 사용 가능한 속성.
+
+### class
+공백으로 구분된 요소의 별칭을 지정
+- css 혹은 JavaScript의 요소 선택기를 통해서 요소를 선택하거나 접근
+- 중복으로 사용 가능
+- .class
+- [class mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes/class "class mdn")
+
+#
+
+### id
+문서에서 <b>고유한</b> 식별자를 정의
+- css 혹은 JavaScript의 요소 선택기를 통해서 요소를 선택하거나 접근
+- 문서내에서 고유한 id로 설정해야 한다.
+- #id
+- [id mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes/id "id mdn")
+
 #### class는 고유하지 않아도 되지만 id는 고유해야한다.
+
+#
+
