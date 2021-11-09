@@ -881,6 +881,11 @@ Canvas API 나 WebGL API를 사용하여 그래픽이나 애니메이션을 랜�
 
 #
 
+### draggable
+요소가 Drag and Drop API를 사용 가능한지 여부를 지정.
+- 실제로 웹에서 Drag and Drop을 할 수 있는지
+- true, false, auto(기본 값)
+- [draggable mdn](https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes/draggable "draggable mdn")
 
 
 
