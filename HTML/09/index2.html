@@ -13,6 +13,10 @@
         MG
     </div>
 
+    <form id="hidden-form" action="/form-action" hidden>
+        <input type="text" name="id" value="Moong">
+    </form>
+    <button form="hidden-form" type="submit">전송</button>
     <script>
         const me = document.getElementById('me');
         console.log(me.dataset.myName);
