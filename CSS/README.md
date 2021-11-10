@@ -267,3 +267,35 @@ S가 아닌 요소 선택
 ```css
     E:after {};
 ```
+
+#
+
+# 속성 선택자(Attribute Selectors)
+HTML의 속성을 포함한 요소 선택
+- \[attribute]
+    - 특정 속성을 포함한 요소 모두 선택
+```css
+    [attribute] {};
+```
+
+- \[attribute=value]
+    - 특정 속성을 포함하여 값이 value인 요소 선택
+```css
+    [attribute=value] {};
+```
+
+- \[attribute^=value]
+    - 특정 속성을 포함하여 값이 value로 시작하는 요소 선택
+```css
+    [attribute^=value] {};
+```
+
+- \[attribute$=value]
+    - 특정 속성을 포함하여 값이 value로 끝나는 요소 선택
+```css
+    [attribute$=value] {};
+```
+
+- [Attribute Selectors mdn](https://developer.mozilla.org/ko/docs/Web/CSS/Attribute_selectors "Attribute Selectors mdn")
+
+
