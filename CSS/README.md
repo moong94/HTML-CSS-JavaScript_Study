@@ -321,3 +321,46 @@ CSS의 일부 속성은 상속되는 속성(Inherited properties)으로 하위 �
 ```
 - [Inheritance mdn](https://developer.mozilla.org/ko/docs/Web/CSS/inheritance "Inheritance mdn")
 
+#
+
+# 우선 순위
+같은 요소가 여러 선언의 대상이 될 경우 어떤 선언의 css 속성을 우선 적용할지 결정하는 방법
+1. [명시도](https://developer.mozilla.org/ko/docs/Web/CSS/Specificity "명시도 mdn") : 명시도 점수가 높은 선언이 우선
+2. 선언 순서 : 점수가 같은 경우, 가장 마지막에 해석(늦게 작성 된)되는 선언이 우선
+3. 중요도 : 명시도는 '상속' 규칙보다 우선, !important가 적용된 선언 방식이 다른 모든 방식보다 우선
+```html
+<body>
+    <div id="color_yellow" class="color-green" style="color: orange;">Hello world!</div>
+                                    <!-- 인라인 선언방식 -->
+</body>
+```
+```css
+div { color: red !important; }      /* !important */
+#color_yellow { color: yellow; }    /* 아이디 선택자 */
+.color-green { color: green;}       /* 클래스 선택자 */
+div { color: blue; }                /* 태그 선택자 */
+* { color: darkblue; }              /* 전체 선택자 */
+body { color: violet; }             /* 상속 */
+```
+## 명시도 점수
+1. !important           (∞ pt)
+2. 인라인 선언 방식     (1000 pt)
+3. 아이디 선택자        (100 pt)
+4. 클래스 선택자        (10 pt)
+5. 태그 선택자          (1 pt)
+6. 전체 선택자          (0 pt)
+7. 상속                 (계산하지 않음)
+
+```css
+.list li.item { color: red; }  /* 21pt */
+.list li:hover { color: red; }  /* 21pt */
+.box::before { content: "Good "; color: red; }  /* 11pt */
+#submit span { color: red; }  /* 101pt */
+header .menu li:nth-child(2) { color: red; }  /* 22pt */
+h1 { color: red; }  /* 1pt */
+:not(.box) { color: red; }  /* 10pt */
+:not(span) { color: red; }  /* 1pt */
+
+/* 가상 요소는 태그 선택자와 같이 1pt (요소 = 태그) */
+/* 부정 선택자인 가상 클래스 :not()은 점수를 가지지 않는다. */
+```
