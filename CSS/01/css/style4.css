@@ -1,0 +1,19 @@
+ul li::before {
+    content: "숫자";
+    width: 30px;
+    height: 30px;
+    background: black;
+    font-weight: bold;
+    color: red;
+    margin-right: 20px;
+    border-radius: 50%
+}
+
+ul li::after {
+    content: url("https://heropy.blog/css/images/logo.png");
+    background: black;
+    font-weight: bold;
+    color: blue;
+    margin-right: 20px;
+    border-radius: 50%
+}
