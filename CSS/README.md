@@ -243,7 +243,7 @@ S가 아닌 요소 선택
 - :not()
 - [:not() mdn](https://developer.mozilla.org/ko/docs/Web/CSS/:not ":not() mdn")
 ```css
-    E:not(S)
+    E:not(S) {};
 ```
 #### 가상클래스의 경우 역순으로 해석하는 것이 보다 정확함.
 #### 콜론(:)앞에 특정 요소를 작성하지 않을 경우 특정 요소가 아닌 가능한 경우들이 모두 선택될 수 있다.
@@ -256,6 +256,14 @@ S가 아닌 요소 선택
 
 ### ::before
 특정 요소 내부에서 내용의 앞에 내용(content)을 삽입
+- [::before mdn](https://developer.mozilla.org/ko/docs/Web/CSS/::before "::before mdn")
 ```css
-    E::before
+    E::before {};
+```
+
+### ::after
+특정 요소 내부에서 내용의 뒤에 내용(content)을 삽입
+- [::after mdn](https://developer.mozilla.org/ko/docs/Web/CSS/::after "::after mdn")
+```css
+    E:after {};
 ```
