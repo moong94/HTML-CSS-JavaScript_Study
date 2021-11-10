@@ -1,0 +1,17 @@
+[disabled] {
+    opacity: 0.2;
+    color: blue;
+}
+
+[type=password] {
+    color: mediumseagreen;
+}
+
+[class^="btn-"] {
+    border-radius: 20px;
+    background-color: pink;
+}
+
+[class$="start"] {
+    color: red;
+}
