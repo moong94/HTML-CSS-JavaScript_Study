@@ -299,3 +299,25 @@ HTML의 속성을 포함한 요소 선택
 - [Attribute Selectors mdn](https://developer.mozilla.org/ko/docs/Web/CSS/Attribute_selectors "Attribute Selectors mdn")
 
 
+#
+
+# 상속(Inheritance)
+CSS의 일부 속성은 상속되는 속성(Inherited properties)으로 하위 요소에도 모두 적용되는 경우가 존재
+- 대부분 글자를 다루는 속성들이 상속됨.
+- 원래는 상속되지 않는 속성들을 강제적으로 상속시킬 수 있음
+    - 부모 요소의 속성의 값이 무엇이 되던지 간에 해당 값을 강제로 상속 받아 사용할 수 있다.
+```html
+<div class="parent">
+    <div class="child"></div>
+</div>
+```
+```css
+.parent {
+    position: absolute;     /* 상속되지 않는 속성과 값 */
+}
+.child {
+    position: inherit;      /* 강제 상속 받아 position: absolute; 와 동일*/
+}
+```
+- [Inheritance mdn](https://developer.mozilla.org/ko/docs/Web/CSS/inheritance "Inheritance mdn")
+
