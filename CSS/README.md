@@ -364,3 +364,9 @@ h1 { color: red; }  /* 1pt */
 /* 가상 요소는 태그 선택자와 같이 1pt (요소 = 태그) */
 /* 부정 선택자인 가상 클래스 :not()은 점수를 가지지 않는다. */
 ```
+
+#
+
+## Reset.css 라이브러리
+브라우저마다 초기 설정된 기본값들이 다르기 때문에 CSS 스타일을 reset 후 문서를 작성해야 함.
+[reset.css cdn](https://www.jsdelivr.com/package/npm/reset-css "reset.css cdn")
