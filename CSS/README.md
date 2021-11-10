@@ -102,22 +102,29 @@ CSS 작성 시 HTML 구조의 순서와 동일하게 작성하는 것이 유지�
 ## 기본 선택자(Basic Selectors)
 - 전체 선택자(Universal Selector)
     - 요소 내부의 모든 요소를 선택
+    - [Universal Selector mdn](https://developer.mozilla.org/ko/docs/Web/CSS/Universal_selectors "Universal Selector mdn")
 ```css
     * { };
 ```
+
 - 태그 선택자(Type Selector)
     - 특정 태그 이름인 요소를 선택
+    - [Type Selector mdn](https://developer.mozilla.org/ko/docs/Web/CSS/Type_selectors "Type Selector mdn")
 ```css
     Tag {};
 ```
+
 - 클래스 선택자(Class Selector)
     - HTML class 속성의 값을 요소로 선택
+    - [Class Selctor mdn](https://developer.mozilla.org/ko/docs/Web/CSS/Class_selectors "Class Selector mdn")
 ```css
     .class {};
 ```
+
 - 아이디 선택자(ID Selector)
     - HTML id 속성의 값을 요소로 선택
     - HTML에서 id는 고유해야함.
+    - [ID Selector mdn](https://developer.mozilla.org/ko/docs/Web/CSS/ID_selectors "ID Selector mdn")
 ```css
     #id {};
 ```
@@ -132,6 +139,7 @@ CSS 작성 시 HTML 구조의 순서와 동일하게 작성하는 것이 유지�
 - 자식 선택자(Child Combinator)
     - 기본 선택자 Parent의 자식 기본 선택자 Child를 선택
     - 한 depth 차이인 경우 부모/자식 관계
+    - [Child Combinator mdn](https://developer.mozilla.org/ko/docs/Web/CSS/Child_combinator "Child Combinator mdn")
 ```css
     Parent > Child {};      /* 조건 > 조건 > .. > 선택*/
 ```
@@ -139,12 +147,14 @@ CSS 작성 시 HTML 구조의 순서와 동일하게 작성하는 것이 유지�
     - 기본 선택자 조상(상위) 요소의 후손(하위) 요소인 기본 선택자를 선택
     - depth 차이가 나도 조상(상위) 요소 내부에 포함되어 있다면 모두 후손(하위) 요소로 판단 가능
     - 띄어쓰기로 선택자 구분
+    - [Descendant Combinator mdn](https://developer.mozilla.org/ko/docs/Web/CSS/Descendant_combinator "Descendant Combinator mdn")
 ```css
     Parent Child {};
 ```
 - 인접 형제 선택자(Adjacent Sibling Combinator)
     - 같은 부모 요소를 공유하는 다른 요소(형제) 선택
     - 특정 요소의 바로 다음 지정 형제 요소 하나만을 선택
+    - [Adjacent Sibling Combinator mdn](https://developer.mozilla.org/ko/docs/Web/CSS/Adjacent_sibling_combinator "Adjacent Sibling Combinator mdn")
 ```css
     A + B {};
 ```
@@ -155,9 +165,11 @@ CSS 작성 시 HTML 구조의 순서와 동일하게 작성하는 것이 유지�
     <B></B>
 </P>
 ```
+
 - 일반 형제 선택자(General Sibling Combinator)
     - 같은 부모 요소를 공유하는 다른 요소(형제) 선택
     - 특정 요소의 인접한 다음 형제 요소 모두 선택
+    - [General Sibling Combinator](https://developer.mozilla.org/ko/docs/Web/CSS/General_sibling_combinator "General Sibling Combinator mdn")
 ```css
     A ~ B {};
 ```
@@ -173,56 +185,77 @@ CSS 작성 시 HTML 구조의 순서와 동일하게 작성하는 것이 유지�
 ## 가상 클래스 선택자(Pseudo-Classes Selectors)
 기본 선택자를 활용(:)
 
-### hover
+### :hover
 기본 선택자에 마우스 포인터가 올라가 있는 동안에만 선택
+- [:hover mdn](https://developer.mozilla.org/ko/docs/Web/CSS/:hover ":hover mdn")
 ```css
     E:hover {};
 ```
 
-### active
+### :active
 기본 선택자를 마우스로 클릭하고 있는 동안에만 선택
+- [:active mdn](https://developer.mozilla.org/ko/docs/Web/CSS/:active ":active mdn")
 ```css
     E:active {};
 ```
 
-### focus
+### :focus
 [대화형 콘텐츠](https://developer.mozilla.org/ko/docs/Web/Guide/HTML/Content_categories#%EB%8C%80%ED%99%94%ED%98%95_%EC%BD%98%ED%85%90%EC%B8%A0 "대화형 콘텐츠") 선택자가 포커스 된 동안에만 선택
+- [:focus mdn](https://developer.mozilla.org/ko/docs/Web/CSS/:focus ":focus mdn")
 ```css
     E:focus {};
 ```
 
-### first-child
+### :first-child
 해당 기본 선택자의 형제 요소들 중 첫 번째 요소만 선택
+- [:first-child mdn](https://developer.mozilla.org/ko/docs/Web/CSS/:first-child ":first-child mdn")
 ```css
     E:first-child {};
 ```
 
-### last-child
+### :last-child
 해당 기본 선택자의 형제 요소들 중 마지막 요소만 선택
+- [:last-child mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child ":last-child mdn")
 ```css
     E:last-child {};
 ```
 
-### nth-child
+### :nth-child
 해당 기본 선택자의 형제 요소들 중 n 번째 요소만 선택
 - n에 해당하는 값이 (xn)일 때 x의 배수마다 선택
 - n에 해당하는 값이 (n + x)일 때 x번째 요소부터 끝까지 선택
+- [:nth-child mdn](https://developer.mozilla.org/ko/docs/Web/CSS/:nth-child ":nth-child mdn")
 ```css
     E:nth-child(n) {};
 ```
 
-### nth-of-type
+### :nth-of-type(n)
 해당 기본 선택자의 타입(태그의 이름)과 동일한 타입인 형제 요소 중 해당 기본 선택자가 n번째 요소라면 선택
 - 특정 선택자의 타입 중 n번째 선택
 - 태그를 찾는 개념으로서만 사용할 것
+- [:nth-of-type() mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type ":nth-of-type() mdn")
 ```css
     E:nth-of-type(n) {};
 ```
 
 ### 부정 선택자(Negation Selector)
 S가 아닌 요소 선택
+- :not()
+- [:not() mdn](https://developer.mozilla.org/ko/docs/Web/CSS/:not ":not() mdn")
 ```css
     E:not(S)
 ```
 #### 가상클래스의 경우 역순으로 해석하는 것이 보다 정확함.
 #### 콜론(:)앞에 특정 요소를 작성하지 않을 경우 특정 요소가 아닌 가능한 경우들이 모두 선택될 수 있다.
+
+#
+
+# 가상 요소 선택자(Pseudo-Elements Selectors)
+콜론 두개(::)로 표현
+- content 속성을 사용해야 가상 요소 선택자를 사용할 수 있다.
+
+### ::before
+특정 요소 내부에서 내용의 앞에 내용(content)을 삽입
+```css
+    E::before
+```
