@@ -1,0 +1,13 @@
+.container {
+    width: 50vw;
+    height: 80vh;
+    background: red;
+}
+
+.container2 {
+    position:absolute;
+    top:0;
+    width: 40vmax;
+    height: 300px;
+    background: aqua;
+}
