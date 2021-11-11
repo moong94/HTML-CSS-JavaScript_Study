@@ -370,3 +370,29 @@ h1 { color: red; }  /* 1pt */
 ## Reset.css 라이브러리
 브라우저마다 초기 설정된 기본값들이 다르기 때문에 CSS 스타일을 reset 후 문서를 작성해야 함.
 [reset.css cdn](https://www.jsdelivr.com/package/npm/reset-css "reset.css cdn")
+
+#
+
+## Emmet
+Emmet 문법을 사용해 편리한 문서작성 가능
+[Emmet cheet-sheet](https://docs.emmet.io/cheat-sheet/ "Emmet cheet-sheet")
+
+#
+
+# CSS 단위
+
+### px
+지정한 크기만큼 사이즈 고정
+
+### %
+부모 요소에 영향을 받아서 단위가 완성
+
+### em
+자기 자신이 가지고 있는 폰트 크기에 영향을 받음
+- font-size * em 값으로 지정
+- font-size에 em단위를 지정할 경우 기본 값인 10px에 em값을 곱한 크기로 지정
+
+### rem
+폰트 관련 속성은 기본적으로 상속되는데 rem단위로 작성하면 가장 높은 조상인 html에 작성된 폰트 사이즈만을 기준으로 크기를 지정
+- 폰트 사이즈의 기본 값을 body에 작성해 놓으면 해당 문서의 기본값과 rem에서 사용하는 폰트 사이즈와 구분지어서 사용할 수 있다.
+
