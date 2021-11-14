@@ -418,3 +418,18 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
 
 #
 
+# 박스 모델
+
+### width, height
+요소의  가로 너비(width), 세로 너비(height)를 지정
+- 기본값 : auto
+    - auto
+        - block 요소
+            - width : 100%, height : 0
+        - inline 요소
+            - width : 0, height : 0
+            - inline 요소는 기본적으로 가로 세로 값을 가질 수 없다.
+- [width](https://developer.mozilla.org/ko/docs/Web/CSS/width "width mdn") / [height](https://developer.mozilla.org/ko/docs/Web/CSS/height "height mdn")
+
+#
+
