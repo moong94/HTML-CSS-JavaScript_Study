@@ -458,4 +458,16 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
     - margin : [위, 아래, 좌, 우];
 - 개별 속성
     - margin-top, margin-right, margin-left, margin-bottom
+- 마진 중복(병합, Collapse)
+    - 마진의 특정 값들이 '중복'되어 합쳐지는 현상
+        1. 형제 요소들의 margin-top 과 margin-bottom 이 만났을 때
+        2. 부모 요소의 margin-top 과 자식 요소의 margin-top 이 만났을 때
+            - 자식 요소의 margin-top 이 부모 요소에도 적용 된다.
+        3. 부모 요소의 margin-bottom 과 자식 요소의 margin-bottom 이 만났을 때
+            - 자식 요소의 margin-bottom 이 부모 요소에도 적용 된다.
+    - 마진 중복 현상 발생시 중복 값을 계산하는 방법
+        - 둘 다 양수 : 더 큰 값으로 중복
+        - 둘 다 음수 : 더 작은 값으로 중복
+        - 양수와 음수 : a + b
+    - 마진 중복은 오류가 아닌 현상이므로 이를 응용해서 사용하거나 우회해서 해결할 수 있다.
 - [margin mdn](https://developer.mozilla.org/ko/docs/Web/CSS/margin "margin mdn")
