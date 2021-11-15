@@ -1,0 +1,14 @@
+button {}
+
+div {
+    width: 200px;
+    height: 200px;
+    background: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.hide {
+    background: violet;
+}

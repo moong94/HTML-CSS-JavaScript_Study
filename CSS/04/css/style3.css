@@ -1,0 +1,27 @@
+span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: tomato;
+}
+
+div {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+input {
+    /* display: inline-block; */
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+input:nth-child(2) {
+    /* display: none; */
+    opacity: 0.3;
+}
