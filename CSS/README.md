@@ -593,3 +593,57 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
 
 #
 
+# 글꼴, 문자
+
+### font
+글자 관련 속성들을 지정
+- 단축 속성
+    - font-style font-weight font-size / line-height font-family;
+    - font-size와 line-height는 단위가 같을 수 있기 때문에 슬래쉬(/)로 구분해야한다.
+    - 단축 속성을 사용하려면 기본적으로 font-size와 font-family를 필수로 입력해야한다.
+- 개별 속성
+    - font-style : 글자 기울기 지정
+    - font-weigth : 글자 두께 지정
+    - font-size : 글자 크기 지정
+    - line-height : 줄 높이(줄 간격) 지정
+    - font-family : 글꼴(서체) 지정
+- [font mdn](https://developer.mozilla.org/ko/docs/Web/CSS/font "font mdn")
+
+### font-style
+글자 기울기 지정
+- 기본값 : normal
+    - normal : 스타일 없음
+    - italic : 이텔릭체
+    - oblique : 기울어진 글자
+- [font-style mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style "font-style mdn")
+
+### font-weight
+글자 두께(가중치) 지정
+- 기본값 : normal
+    - normal : 기본 글자 두께, 400과 동일
+    - bold : 글자 두껍게, 700과 동일
+    - bolder : 부모(상위) 요소보다 더 두껍게
+    - lighter : 부모(상위) 요소보다 더 얇게
+        - [bolder & lighter 사용 경우](https://developer.mozilla.org/ko/docs/Web/CSS/font-weight#%EC%83%81%EB%8C%80%EC%A0%81_%EA%B0%80%EC%A4%91%EC%B9%98%EC%9D%98_%EC%9D%98%EB%AF%B8 "bolder & lighter 사용 경우")
+    - 숫자 : 100부터 900 까지의 100단위의 숫자 9개, normal과 bold 이외의 두께를 제공하는 글꼴(서체)을 위한 설정
+        - [100단위 가중치 이름 매핑](https://developer.mozilla.org/ko/docs/Web/CSS/font-weight#%EC%9D%BC%EB%B0%98%EC%A0%81%EC%9D%B8_%EA%B0%80%EC%A4%91%EC%B9%98_%EC%9D%B4%EB%A6%84_%EB%A7%A4%ED%95%91 "100단위 가중치 이름 매핑") 
+- 숫자 값과 두께가 불일치 할 경우
+    - 글꼴의 정확한 두께를 숫자로 표현할 수 없는 경우
+    1. 400이 주어지면 500을 사용, 500이 불가하면 500미만의 중 사용 가능한 최대 값의 다른 두께 사용
+    2. 500이 주어지면 400을 사용, 400이 불가하면 400미만의 중 사용 가능한 최대 값의 다른 두께 사용
+    3. 400 미만의 값이 주어지면, 가장 갂까운 숫자의 얇은 두께 사용
+    4. 500 초과의 값이 주어지면, 가장 가까운 숫자의 두꺼운 두께 사용
+- [font-weight mdn](https://developer.mozilla.org/ko/docs/Web/CSS/font-weight "font-weigth mdn")
+
+### font-size
+글자 크기 지정
+- 기본값 : medium (16px)
+
+
+### line-height
+줄 높이(줄 간격) 지정
+- 기본값 : normal (Reset.css 적용시 1)
+
+### font-family
+글꼴(서체) 지정
+- 기본값 : 운영체제(브라우저)에 따라 달라짐
