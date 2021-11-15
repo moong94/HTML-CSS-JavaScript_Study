@@ -707,10 +707,27 @@ font-family: 글꼴 후보, 글꼴후보2..., 글꼴계열;
 
 ### text-indent
 (첫번째 줄의) 들여쓰기를 지정
+- 단위로 지정
 - 음수 값 사용 가능
 - 음수 값을 사용하면 첫째 줄은 내어쓰기로 표현
 - 이미지를 bacground로 불러올 경우 대체텍스트를 표현하기 위해 사용할 수 있음. (text-indent:-9999px;)
 - [text-indent mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent "text-indent mdn")
+
+#
+
+### letter-spacing
+문자의 자간(글자 사이의 간격)을 설정
+- normal : 글자 사이의 일반 간격 (기본값, 0px)
+- 단위 : 단위로 지정
+- [letter-spacing mdn](https://developer.mozilla.org/ko/docs/Web/CSS/letter-spacing "letter-spacing mdn")
+
+#
+
+### word-spacing
+단어 사이(띄어쓰기)의 간격 설정
+- normal : 단어 사이의 일반 간격 (기본값, 0px)
+- 단위 : 단위로 지정
+- [word-spacing mdn](https://developer.mozilla.org/ko/docs/Web/CSS/word-spacing "word-spacing mdn")
 
 #
 
