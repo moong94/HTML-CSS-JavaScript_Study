@@ -665,3 +665,22 @@ font-family: 글꼴 후보, 글꼴후보2..., 글꼴계열;
 
 #
 
+### color
+문자의 색상을 지정
+- 기본값 : rgb(0,0,0)
+- 색상표현법
+    - 색상이름
+    - Hex 색상코드 : 16진수 색상
+        - #000000
+    - RGB : 빛의 삼원색
+        - rgb(255, 255, 255)
+    - RGBA : 빛의 삼원색 + 투명도
+        - rgba(255, 255, 255, .5)
+    - HSL : 색상, 채도, 명도
+        - hsl(120, 100%, 50%)
+    - HSLA : 색상, 채도, 명도, 투명도
+        - hsla(120, 100%, 50%, .3)
+- [color mdn](https://developer.mozilla.org/ko/docs/Web/CSS/color "color mdn")
+
+#
+
