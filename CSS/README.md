@@ -692,3 +692,12 @@ font-family: 글꼴 후보, 글꼴후보2..., 글꼴계열;
 - justify : 양쪽 맞춤
     - 의도하지 않고 줄바꿈이 일어난 경우 사용 가능(2줄 이상)
 - [text-align mdn](https://developer.mozilla.org/ko/docs/Web/CSS/text-align "text-align mdn")
+
+#
+
+### text-decoration
+문자의 장식(line)을 설정
+- none : 선 없음 (기본값)
+- underline : 밑줄을 지정
+- overline : 윗줄을 지정
+- line-through : 중앙 선을 지정
