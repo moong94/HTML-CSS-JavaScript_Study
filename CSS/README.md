@@ -433,3 +433,13 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
 
 #
 
+### max-width, min-width, max-heigth, min-height
+요소의 최대(max), 최소(min) 가로 너비(width), 세로 너비(height)를 지정
+- 부모 요소의 너비를 상속받아 가변하되, 최대, 최소 너비를 지정하는 방식
+- max-width, max-height
+    - 기본값 : none
+    - auto : 브라우저가 너비를 계산
+- min-width, min-heigjht
+    - 기본값 : 0
+    - auto : 브라우저가 너비를 계산
+- [max-width](https://developer.mozilla.org/ko/docs/Web/CSS/max-width "max-width mdn") / [min-width](https://developer.mozilla.org/ko/docs/Web/CSS/min-width "min-width mdn") / [max-height](https://developer.mozilla.org/ko/docs/Web/CSS/max-height "max-height mdn") / [min-height](https://developer.mozilla.org/ko/docs/Web/CSS/max-height "min-height mdn") mdn
