@@ -684,3 +684,11 @@ font-family: 글꼴 후보, 글꼴후보2..., 글꼴계열;
 
 #
 
+### text-align
+문자의 정렬 방식 지정
+- left : 외쪽 정렬
+- right: 오른쪽 정렬
+- center : 가운데 정렬
+- justify : 양쪽 맞춤
+    - 의도하지 않고 줄바꿈이 일어난 경우 사용 가능(2줄 이상)
+- [text-align mdn](https://developer.mozilla.org/ko/docs/Web/CSS/text-align "text-align mdn")
