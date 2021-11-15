@@ -638,11 +638,17 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
 ### font-size
 글자 크기 지정
 - 기본값 : medium (16px)
-
+- 보통 단위로 지정
+- [font-size mdn](https://developer.mozilla.org/ko/docs/Web/CSS/font-size "font-size mdn")
 
 ### line-height
 줄 높이(줄 간격) 지정
 - 기본값 : normal (Reset.css 적용시 1)
+- normal : 브라우저의 기본 정의를 사용하기 때문에 브라우저마다 다를 수 있음
+- 숫자 : 요소 자체의 글꼴 크기의 배수로 지정
+- 단위 : 단위를 작성해서 실질적인 수치 지정 가능
+    - 글꼴의 크기를 포함하여 해당 줄의 높이 지정
+- [line-heigth](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height "line-height mdn")
 
 ### font-family
 글꼴(서체) 지정
