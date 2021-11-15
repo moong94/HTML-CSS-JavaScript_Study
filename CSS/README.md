@@ -701,3 +701,16 @@ font-family: 글꼴 후보, 글꼴후보2..., 글꼴계열;
 - underline : 밑줄을 지정
 - overline : 윗줄을 지정
 - line-through : 중앙 선을 지정
+- [text-decoration mdn](https://developer.mozilla.org/ko/docs/Web/CSS/text-decoration "text-align mdn")
+
+#
+
+### text-indent
+(첫번째 줄의) 들여쓰기를 지정
+- 음수 값 사용 가능
+- 음수 값을 사용하면 첫째 줄은 내어쓰기로 표현
+- 이미지를 bacground로 불러올 경우 대체텍스트를 표현하기 위해 사용할 수 있음. (text-indent:-9999px;)
+- [text-indent mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent "text-indent mdn")
+
+#
+
