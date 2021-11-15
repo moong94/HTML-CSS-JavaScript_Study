@@ -583,3 +583,13 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
 
 #
 
+### opacity
+요소의 투명도를 지정
+- 기본값 : 1
+- 0 ~ 1사이의 소수점 숫자를 통해 지정
+- 0 : 완전 투명
+- 1 : 완전 불투명
+- [opacity mdn](https://developer.mozilla.org/ko/docs/Web/CSS/opacity "opacity mdn")
+
+#
+
