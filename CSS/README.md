@@ -443,3 +443,19 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
     - 기본값 : 0
     - auto : 브라우저가 너비를 계산
 - [max-width](https://developer.mozilla.org/ko/docs/Web/CSS/max-width "max-width mdn") / [min-width](https://developer.mozilla.org/ko/docs/Web/CSS/min-width "min-width mdn") / [max-height](https://developer.mozilla.org/ko/docs/Web/CSS/max-height "max-height mdn") / [min-height](https://developer.mozilla.org/ko/docs/Web/CSS/max-height "min-height mdn") mdn
+
+#
+
+### margin
+요소의 '외부(바깥)여백'을 지정
+- 음수 값 사용 가능
+- margin은 부모 요소의 width를 기준으로 지정 됨.
+- 기본값 : 0
+- 단축 속성
+    - margin : 위 우 아래 좌;
+    - margin : 위 [좌, 우] 아래;
+    - margin : [위, 아래] [좌, 우];
+    - margin : [위, 아래, 좌, 우];
+- 개별 속성
+    - margin-top, margin-right, margin-left, margin-bottom
+- [margin mdn](https://developer.mozilla.org/ko/docs/Web/CSS/margin "margin mdn")
