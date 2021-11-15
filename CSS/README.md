@@ -559,3 +559,12 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
 
 #
 
+### display
+요소의 박스 타입(유형)을 설정
+- block
+- inline
+- inline-block
+    - 기본 특성은 inline이지만 widht, height 지정 가능 / margin, padding의 top, bottom 사용 가능
+- 기타 (table, table-cell, flex ...)
+- none
+- [display mdn](https://developer.mozilla.org/ko/docs/Web/CSS/display "display mdn")
