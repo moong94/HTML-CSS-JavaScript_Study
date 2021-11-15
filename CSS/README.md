@@ -547,3 +547,15 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
 - [border-color](https://developer.mozilla.org/ko/docs/Web/CSS/border-color "border-color mdn")
 
 #
+
+### box-sizing
+요소의 크기 계산 기준을 지정
+- 기본값 : content-box
+    - content-box : 너비(width, height)만으로 요소의 크기를 계산
+    - border-box : 너비(width, height)에 안쪽 여백(padding)과 테두리 선(border)을 포함하여 요소의 크기를 계산
+- content-box < padding-box < border-box < margin-box
+    - ![box-sizing](../images/box-sizing.png)
+- [box-sizing mdn](https://developer.mozilla.org/ko/docs/Web/CSS/box-sizing "box-sizing mdn")
+
+#
+
