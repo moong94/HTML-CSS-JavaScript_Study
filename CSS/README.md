@@ -568,3 +568,18 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
 - 기타 (table, table-cell, flex ...)
 - none
 - [display mdn](https://developer.mozilla.org/ko/docs/Web/CSS/display "display mdn")
+
+#
+
+### overflow
+요소의 크기 이상으로 내용(자식요소)이 넘쳤을 때, 넘쳐진 내용을 어떻게 보여질지 제어
+- visible : 넘친 부분을 자르지 않고 그대로 보여줌 (기본값)
+- hidden : 넘친 부분을 잘라내고, 보이지 않도록 함
+- scroll : 넘친 부분을 잘라내고, 스크롤바를 이용하여 볼 수 있도록 함.
+    - 넘친 부분이 없더라도 스크롤 바 생성
+- auto : 넘친 부분이 있는 경우만 잘라내고, 스크롤바를 이용하여 볼 수 있도록 함.
+    - 넘친 부분이 있는 경우에만 스크롤 바 생성
+- [overflow mdn](https://developer.mozilla.org/ko/docs/Web/CSS/overflow "overflow mdn")
+
+#
+
