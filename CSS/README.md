@@ -653,3 +653,15 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
 ### font-family
 글꼴(서체) 지정
 - 기본값 : 운영체제(브라우저)에 따라 달라짐
+- 글꼴 이름 후보로 여러개 지정 가능
+- 글꼴 후보가 지정되지 않았을 경우를 대비해 마지막에 글꼴 계열 이름을 지정해야함.
+    - 글꼴 계열은 필수로 입력해야함.
+    - [글꼴 계열](https://developer.mozilla.org/ko/docs/Web/CSS/font-family#generic-name "글꼴계열")
+- 사용자가 브라우저에서 사용하는 글꼴중에서 선택하여 보여주기 위함. 
+```css
+font-family: 글꼴 후보, 글꼴후보2..., 글꼴계열;
+```
+- [font-family mdn](https://developer.mozilla.org/ko/docs/Web/CSS/font-family "font-family mdn")
+
+#
+
