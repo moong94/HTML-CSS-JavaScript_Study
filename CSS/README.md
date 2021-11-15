@@ -471,3 +471,25 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
         - 양수와 음수 : a + b
     - 마진 중복은 오류가 아닌 현상이므로 이를 응용해서 사용하거나 우회해서 해결할 수 있다.
 - [margin mdn](https://developer.mozilla.org/ko/docs/Web/CSS/margin "margin mdn")
+
+#
+
+### padding
+요소의 '내부(안) 여백'을 지정
+- 기본값 : 0
+- 단축 속성
+    - padding : 위 우 아래 좌;
+    - padding : 위 [좌, 우] 아래;
+    - padding : [위, 아래] [좌, 우];
+    - padding : [위, 아래, 좌, 우];
+- 개별 속성
+    - padding-top, padding-right, padding-left, padding-bottom
+- 크기 증가
+    - 추가된 padding 값 만큼 요소의 크기가 커지는 현상
+    - padding 값 만큼 크기가 증가하므로 크기가 커지지 않도록 계산해야 한다.
+        - 직접 계산
+        - box-sizing: border-box; : 자동 계산
+- [padding mdn](https://developer.mozilla.org/ko/docs/Web/CSS/padding "padding mdn")
+
+#
+
