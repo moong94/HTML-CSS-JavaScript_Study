@@ -493,3 +493,57 @@ viewport-min, 보여지는 화면에서 가로와 세로를 비교했을 때 현
 
 #
 
+### border
+요소의 '테두리 선'을 지정
+- 단축 속성
+    - border : border-width border-style border-color
+- 개별 속성
+    - border-width : 선의 두께(너비) / 기본값 : medium
+        - medium, thin, thick, 단위 지정
+    - border-style : 선의 종류 / 기본값 : none
+        - none, hidden, solid, dotted, dashed ....
+        - [선의 종류](https://developer.mozilla.org/ko/docs/Web/CSS/border-style#%EA%B0%92 "선의 종류")
+    - border-style : 선의 색상 / 기본값 : black
+    - border의 각각의 개별 속성들은 개별속성이면서 추가적으로 단축 속성들이다.
+- 요소의 외부에 선을 추가하는 것이므로 결과적으로 요소의 선만큼 크기가 추가된다고 볼 수 있다.
+- [border mdn](https://developer.mozilla.org/ko/docs/Web/CSS/border "border mdn")
+
+### border-width
+요소의 '선의 두께'를 지정
+- 기본값 : medium
+- 단축 속성
+    - border-width : 위 우 아래 좌;
+    - border-width : 위 [좌, 우] 아래;
+    - border-width : [위, 아래] [좌, 우];
+    - border-width : [위, 아래, 좌, 우];
+- 개별 속성
+    - border-top-width, border-right-width, border-left-width, border-bottom-width
+- [border-width mdn](https://developer.mozilla.org/ko/docs/Web/CSS/border-width "border-width mdn")
+
+### border-style
+요소의 '선의 종류'를 지정
+- 기본값 : none
+- 단축 속성
+    - border-style : 위 우 아래 좌;
+    - border-style : 위 [좌, 우] 아래;
+    - border-style : [위, 아래] [좌, 우];
+    - border-style : [위, 아래, 좌, 우];
+- 개별 속성
+    - border-top-style, border-right-style, border-left-style, border-bottom-style
+- [border-style mdn](https://developer.mozilla.org/ko/docs/Web/CSS/border-style "border-style mdn")
+- [선의 종류](https://developer.mozilla.org/ko/docs/Web/CSS/border-style#%EA%B0%92 "선의 종류")
+
+### border-color
+요소의 '선의 색상'을 지정
+- 기본값 : black
+- transparent : 투명한 선, 배경색이 지정되어 있다면 배경색이 보이게 된다.
+- 단축 속성
+    - border-color : 위 우 아래 좌;
+    - border-color : 위 [좌, 우] 아래;
+    - border-color : [위, 아래] [좌, 우];
+    - border-color : [위, 아래, 좌, 우];
+- 개별 속성
+    - border-top-color, border-right-color, border-left-color, border-bottom-color
+- [border-color](https://developer.mozilla.org/ko/docs/Web/CSS/border-color "border-color mdn")
+
+#
