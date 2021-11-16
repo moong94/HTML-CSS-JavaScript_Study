@@ -766,3 +766,13 @@ font-family: 글꼴 후보, 글꼴후보2..., 글꼴계열;
 - [float mdn](https://developer.mozilla.org/ko/docs/Web/CSS/float "float mdn")
 
 #
+
+### clear
+float 속성이 적용되지 않도록 지정(해제)
+- 기본값 : none
+- left : 왼쪽 띄움 해제
+- right : 오른쪽 띄움 해제
+- both : 양쪽(왼쪽, 오른쪽) 모두 띄움 해제
+- float 속성을 사용한 후 필수적으로 적용해야 다른 요소에 float가 영향을 끼치지 않는다.
+- [clear mdn](https://developer.mozilla.org/ko/docs/Web/CSS/clear "clear mdn")
+
