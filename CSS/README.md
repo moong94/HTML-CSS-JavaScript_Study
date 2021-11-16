@@ -731,3 +731,37 @@ font-family: 글꼴 후보, 글꼴후보2..., 글꼴계열;
 
 #
 
+# 띄움(정렬), 위치
+
+### float
+요소를 좌우 방향으로 띄움(수평 정렬)
+- CSS3에서는 float를 대체하여 flex box라는 요소가 추가되었다.
+- 기본값 : none
+- left : 왼쪽으로 띄움
+- right : 오른쪽으로 띄움
+- float 속성을 적용하면 적용된 요소 주변으로 text가 자연스럽게 흐름.
+- 여러 요소에 float 속성이 적용되면 적용된 순서대로 적용된다.
+- float 속성을 사용한 후에는 clear를 사용하여 반드시 해제하고 사용해야한다.
+    1. 다음 형제요소에 clear: (left, right, both) 추가하여 해제
+    2. 부모요소에 overflow: (hidden, auto) 추가하여 해제
+    3. 부모요소에 clearfix 클래스 추가하여 해제 (추천)
+        ```html
+            <div class="parent clearfix">
+                <div class="child"></div>
+                <div class="child"></div>
+            </div>
+        ```
+        ```css
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+        .child {
+            float: left;
+        }
+        ```
+- [float mdn](https://developer.mozilla.org/ko/docs/Web/CSS/float "float mdn")
+
+#
+
