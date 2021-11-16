@@ -761,7 +761,8 @@ font-family: 글꼴 후보, 글꼴후보2..., 글꼴계열;
             float: left;
         }
         ```
+- display 수정
+    - float 속성이 추가된 요소는 display 속성의 값이 대부분 block으로 수정됨. (mdn에서 확인)
 - [float mdn](https://developer.mozilla.org/ko/docs/Web/CSS/float "float mdn")
 
 #
-
