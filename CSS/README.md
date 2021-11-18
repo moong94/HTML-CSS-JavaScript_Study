@@ -776,3 +776,28 @@ float 속성이 적용되지 않도록 지정(해제)
 - float 속성을 사용한 후 필수적으로 적용해야 다른 요소에 float가 영향을 끼치지 않는다.
 - [clear mdn](https://developer.mozilla.org/ko/docs/Web/CSS/clear "clear mdn")
 
+#
+
+### position
+요소의 위치 지정 방법의 유형(기준)을 설정
+- static : 유형 (기준) 없음/ 배치 불가능 (기본값)
+- relative : 요소 자신을 기준으로 배치
+    - 자기 자신을 기준으로 배치를 하는데 주변 요소에 영향을 끼치고 있는 상황임을 인지해야함.
+- absolute : 위치 상 부모 요소를 기준으로 배치
+    - 부모 요소를 기준으로 배치하기 때문에 형제 요소들과의 상관관계를 무시한다.
+    - 위치상 부모요소는 가장 가까운 조상요소들 중 CSS 속성에 static을 제외한 position 속성이 부여되어 있는 상황이어야 한다.
+- fixed :  브라우저(뷰표트)를 기준으로 배치
+    - 뷰포트는 html 태그보다 상위 태그
+- sticky : 스크롤 영역을 기준으로 배치
+    - IE 지원 불가
+    - sticky를 사용하기 위해 top, left, right, bottom 중 하나 이상 추가로 사용해야한다.
+- top, left, right, bottom 속성은 position 속성이 사용 된 후 position 기준에 맞게 위치를 설정한다.
+- 요소 쌓임 순서
+    - 어떤 요소가 사용자와 가깝게 있는지 결정
+        1. static을 제외한 position 속성의 값이 있을 경우 가장 위에 쌓임
+        2. position이 모두 존재한다면 z-index 속성의 숫자 값이 높을 수록 위에 쌓임
+        3. posiiton 속성의 값이 있고, z-index 속성의 숫자 값이 같다면, "HTML"의 마지막 코드일 수록 위에 쌓임
+            - position > z-index > HTML마지막 코드
+- display 수정
+    - absolute, fixed 속성값이 적용된 요소는 display 속성의 값이 block으로 바뀐다.
+- [display mdn](https://developer.mozilla.org/ko/docs/Web/CSS/display "display mdn")
