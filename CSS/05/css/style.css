@@ -1,0 +1,17 @@
+.parent {
+    width: 400px;
+    height: 300px;
+    border: 4px dashed lightgray;
+
+}
+
+.child {
+    width: 150px;
+    height: 100px;
+    background: tomato;
+    border: 4px dashed red;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
