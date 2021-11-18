@@ -1,0 +1,31 @@
+.grand-parent {
+    width: 400px;
+    height: 300px;
+    padding: 30px 100px 100px 30px;
+    border: 4px dashed lightgray;
+}
+
+.parent {
+    width: 400px;
+    height: 300px;
+    border: 4px dashed gray;
+    position: relative;
+}
+
+.child {
+    width: 120px;
+    height: 80px;
+    background: tomato;
+    border: 4px dashed red;
+    border-radius: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
