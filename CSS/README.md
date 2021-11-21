@@ -813,3 +813,12 @@ float 속성이 적용되지 않도록 지정(해제)
 
 #
 
+### background-color
+요소의 배경 색상을 지정
+- 개별속성
+- transparent : 투명(기본값)
+- hex, rgb, hsl등 다양한 값 입력 가능
+- [background-color mdn](https://developer.mozilla.org/ko/docs/Web/CSS/background-color "background-color mdn")
+
+#
+
