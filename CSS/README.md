@@ -807,7 +807,7 @@ float 속성이 적용되지 않도록 지정(해제)
 ### background
 요소의 배경을 설정
 - 단축속성
-    - background: 색상 이미지경로 반복 위치 스크롤특성;
+    - background : 색상 이미지경로 반복 위치 스크롤특성;
     - 사용 하지 않는 개별 속성은 공란으로 비워도 상관없음
 -[background mdn](https://developer.mozilla.org/ko/docs/Web/CSS/background "background mdn")
 
@@ -825,7 +825,7 @@ float 속성이 적용되지 않도록 지정(해제)
 ### background-image
 요소의 배경에 하나 이상의 이미지를 삽입
 - 개별속성
-- none: 이미지 없음(기본값)
+- none : 이미지 없음(기본값)
 - url("경로")를 통해 요소의 배경으로 이미지가 삽입
 - 배경 이미지 삽입시, 요소의 크기가 설정되어 있어야 배경 이미지가 보일 수 있다.
     - 요소의 크기가 이미지 보다 작을 경우 이미지가 잘려서 표현 된다.
@@ -841,6 +841,17 @@ float 속성이 적용되지 않도록 지정(해제)
         }
     ```
 - [background-image mdn](https://developer.mozilla.org/ko/docs/Web/CSS/background-image "background mdn")
+
+#
+
+### background-repeat
+배경 이미지의 반복을 설정
+- 개별속성
+    - repeat : 배경 이미지를 수직, 수평으로 반복(기본값)
+    - repeat-x : 배경 이미지를 수평으로 반복
+    - repeat-y : 배경 이미지를 수직으로 반복
+    - no-repeat : 배경 이미지를 반복하지 않음
+- [background-repeat mdn](https://developer.mozilla.org/ko/docs/Web/CSS/background-repeat "background-repeat mdn")
 
 #
 
