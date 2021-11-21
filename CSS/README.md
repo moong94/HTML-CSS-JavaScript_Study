@@ -873,3 +873,16 @@ float 속성이 적용되지 않도록 지정(해제)
     - fixed : 배경 이미지가 뷰포트에 고정되어, 요소와 같이 스크롤되지 않음
     - local : 요소 내 스크롤 시 배경 이미지가 같이 스크롤 됨
 - [background-attachment mdn](https://developer.mozilla.org/ko/docs/Web/CSS/background-attachment "background-attachment mdn")
+
+#
+
+### background-size
+배경 이미지의 크기를 지정
+- 개별속성
+    - auto : 배경 이미지가 원래의 크기로 표시됨(기본값)
+    - 단위
+    - cover : 배경 이미지의 크기 비율을 유지하며, 요소의 더 넓은 너비에 맞춰짐
+        - 요소의 더 넓은 너비에 맞춰지므로 이미지가 잘릴 수 있음.
+    - contain : 배경 이미지의 크기 비율을 유지하며, 요소의 더 짧은 너비에 맞춰짐
+        - 요소의 더 짧은 너비에 맞춰지므로 이미지가 잘리지는 않음.
+- [background-size mdn](https://developer.mozilla.org/ko/docs/Web/CSS/background-size "background-size mdn")
