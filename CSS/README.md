@@ -855,3 +855,14 @@ float 속성이 적용되지 않도록 지정(해제)
 
 #
 
+### background-position
+배경 이미지의 위치를 설정
+- 개별속성
+    - % : (x%, y%)왼쪽 상단 모서리는 0% 0%(기본값), 100% 100%는 오른쪽 하단
+    - 방향 : top, right, left, bottom, center
+    - 단위 : px, em, cm...
+        - 방향과 단위를 동시에 사용하는 경우 x, y에 해당하는 값을 알맞은 위치에 넣어야 함.
+- [background-position mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position "background-position mdn")
+
+#
+
