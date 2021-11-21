@@ -801,3 +801,15 @@ float 속성이 적용되지 않도록 지정(해제)
 - display 수정
     - absolute, fixed 속성값이 적용된 요소는 display 속성의 값이 block으로 바뀐다.
 - [display mdn](https://developer.mozilla.org/ko/docs/Web/CSS/display "display mdn")
+
+#
+
+### background
+요소의 배경을 설정
+- 단축속성
+    - background: 색상 이미지경로 반복 위치 스크롤특성;
+    - 사용 하지 않는 개별 속성은 공란으로 비워도 상관없음
+-[background mdn](https://developer.mozilla.org/ko/docs/Web/CSS/background "background mdn")
+
+#
+
