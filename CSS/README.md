@@ -866,3 +866,10 @@ float 속성이 적용되지 않도록 지정(해제)
 
 #
 
+### background-attachment
+요소가 스크롤될 때 배경 이미지의 스크롤 여부(특성) 설정
+- 개별속성
+    - scroll : 배경 이미지가 요소를 따라서 같이 스크롤 됨(기본값)
+    - fixed : 배경 이미지가 뷰포트에 고정되어, 요소와 같이 스크롤되지 않음
+    - local : 요소 내 스크롤 시 배경 이미지가 같이 스크롤 됨
+- [background-attachment mdn](https://developer.mozilla.org/ko/docs/Web/CSS/background-attachment "background-attachment mdn")
