@@ -1,0 +1,32 @@
+section {
+    height: 300px;
+}
+
+.section2 {
+    background-image: url("https://www.starbucks.co.kr/common/img/main/fav_prod_bg_new.jpg");
+    background-size: auto 100%;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+.section3 {
+    background-image: url("https://www.starbucks.co.kr/common/img/main/reserve_bg.jpg");
+    background-size: auto 100%;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    border: 4px solid red;
+    margin: 50px;
+    overflow: auto;
+    background-image: url("https://www.starbucks.co.kr/common/img/main/reserve_bg.jpg");
+    background-size: 50%;
+    background-attachment: local;
+}
+
+.for-scroll {
+    height: 2000px;
+}
