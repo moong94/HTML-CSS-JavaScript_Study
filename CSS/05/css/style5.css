@@ -30,3 +30,25 @@ section {
 .for-scroll {
     height: 2000px;
 }
+
+.box1 {
+    width: 400px;
+    height: 300px;
+    border: 4px solid red;
+    margin: 50px;
+    overflow: auto;
+    background-image: url("https://www.starbucks.co.kr/common/img/main/reserve_bg.jpg");
+    background-size: cover;
+    background-attachment: local;
+}
+
+.box2 {
+    width: 400px;
+    height: 300px;
+    border: 4px solid red;
+    margin: 50px;
+    overflow: auto;
+    background-image: url("https://www.starbucks.co.kr/common/img/main/reserve_bg.jpg");
+    background-size: contain;
+    background-attachment: local;
+}
