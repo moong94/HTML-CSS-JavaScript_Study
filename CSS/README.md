@@ -822,3 +822,25 @@ float 속성이 적용되지 않도록 지정(해제)
 
 #
 
+### background-image
+요소의 배경에 하나 이상의 이미지를 삽입
+- 개별속성
+- none: 이미지 없음(기본값)
+- url("경로")를 통해 요소의 배경으로 이미지가 삽입
+- 배경 이미지 삽입시, 요소의 크기가 설정되어 있어야 배경 이미지가 보일 수 있다.
+    - 요소의 크기가 이미지 보다 작을 경우 이미지가 잘려서 표현 된다.
+- 쉼표(,)를 통해 여러 이미지를 삽입할 수 있음
+    - 먼저 작성한 url의 이미지가 가장 앞에 나타남.
+    ```css
+        .box1 {
+            background-image: url("경로1"),
+                url("경로2"),
+                url("경로3")...;
+            width: 100px;
+            height: 100px;
+        }
+    ```
+- [background-image mdn](https://developer.mozilla.org/ko/docs/Web/CSS/background-image "background mdn")
+
+#
+
