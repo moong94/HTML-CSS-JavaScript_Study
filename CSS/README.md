@@ -928,3 +928,26 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
 
 #
 
+### transform
+요소의 변환 효과(변형)를 지정
+- transform 2D 변환 함수
+    - 이동
+        - translate(x, y)
+        - translateX(x)
+        - translateY(y)
+    - 크기(배수)
+        - scale(x, y)
+        - scaleX(x)
+        - scaleY(y)
+    - 회전
+        - rotate(deg)
+    - 기울임
+        - skew(x-deg, y-deg)
+        - skewX(x-deg)
+        - skewY(y-deg)
+    - 2차원 변환 효과
+        - 위 네 가지를 모두 아우르는 경우
+        - matrix(n, n, n, n, n, n)
+        - (x축 이동, y축 이동, x축 크기, y축 크기, x축 기울임, y축 기울임)
+    
+- [transform mdn](https://developer.mozilla.org/ko/docs/Web/CSS/transform "transfrom mdn")
