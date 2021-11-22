@@ -1,0 +1,40 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    margin: 50px;
+    transition: width 1s, background 1s;
+    /* transition-property: width, background;
+    transition-duration: 1s; */
+}
+
+.box:hover {
+    width: 300px;
+    background: dodgerblue;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    margin: 50px;
+    transition: 2s linear;
+}
+
+.box2:hover {
+    width: 300px;
+    background: dodgerblue;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    margin: 50px;
+    transition: 2s steps(4);
+}
+
+.box3:hover {
+    width: 300px;
+    background: dodgerblue;
+}
