@@ -967,3 +967,16 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
     - 3차원 변환 효과
         - matrix3d(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)
 - [transform mdn](https://developer.mozilla.org/ko/docs/Web/CSS/transform "transfrom mdn")
+
+#
+
+### transform 변환 속성
+- transform-origin : 요소 변환의 기준점을 설정
+    - 변환의 중심 축 설정
+    - X축, Y축, Z축을 값으로 지정
+    - transform-origin : 50% 50% 0; (기본값)
+    - [transform-origin mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin "transform-origin mdn")
+- transform-style : 3D 변환 요소의 자식 요소도 3D 변환을 사용할지 설정
+- perspective : 하위 요소를 관찰하는 원근 거리를 설정
+- perspective-origin : 원근 거리의 기준점을 설정
+- backface-visibility : 3D 변환으로 회전된 요소의 뒷면 숨김을 설정
