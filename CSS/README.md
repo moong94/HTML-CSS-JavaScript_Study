@@ -996,3 +996,7 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
     - perspective-origin: 50%, 50%; (기본값)
     - [perspective-origin mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin "perspective-origin mdn")
 - backface-visibility : 3D 변환으로 회전된 요소의 뒷면 숨김을 설정
+    - 값
+        - visible : 뒷면 숨기지 않음(기본값)
+        - hidden : 뒷면 숨김
+    - [backface-visibility mdn](https://developer.mozilla.org/ko/docs/Web/CSS/backface-visibility "backface-visibility mdn")
