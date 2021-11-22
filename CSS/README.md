@@ -983,5 +983,13 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
         - preserve-3d : 자식 요소의 3D 변환을 사용
     - [transform-style mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style "transform-style mdn")
 - perspective : 하위 요소를 관찰하는 원근 거리를 설정
+    - 단위로 값 지정
+    - 관찰하려하는 요소의 상위요소에 perspective 속성을 지정하는 것이 중요
+    - perspective 함수와 다른 것임을 인지
+        - perspective : 속성, 관찰 대상의 부모 요소에 적용해서 하위 요소들을 관찰
+            - 기준점 설정 : perspective-origin
+        - transform: perspective() : 함수, 관찰 대상에 직접 적용해서 그 대상을 관찰
+            - 기준점 설정 : transform-origin
+    - [perspective mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective "perspective mdn")
 - perspective-origin : 원근 거리의 기준점을 설정
 - backface-visibility : 3D 변환으로 회전된 요소의 뒷면 숨김을 설정
