@@ -1,0 +1,7 @@
+img {
+    width: 300px;
+    border: 1px solid lightgray;
+    transition: 1s;
+    transform: perspective(400px) rotateY(180deg);
+    backface-visibility: hidden;
+}
