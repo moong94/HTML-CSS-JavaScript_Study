@@ -977,6 +977,11 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
     - transform-origin : 50% 50% 0; (기본값)
     - [transform-origin mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin "transform-origin mdn")
 - transform-style : 3D 변환 요소의 자식 요소도 3D 변환을 사용할지 설정
+    - 기본적으로 자식요소는 3D 변환이 자동적으로 되진 않으므로 위 속성을 통해 설정 가능
+    - 값
+        - flat : 자식 요소의 3D 변환을 사용하지 않음(기본값)
+        - preserve-3d : 자식 요소의 3D 변환을 사용
+    - [transform-style mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style "transform-style mdn")
 - perspective : 하위 요소를 관찰하는 원근 거리를 설정
 - perspective-origin : 원근 거리의 기준점을 설정
 - backface-visibility : 3D 변환으로 회전된 요소의 뒷면 숨김을 설정
