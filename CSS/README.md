@@ -949,5 +949,21 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
         - 위 네 가지를 모두 아우르는 경우
         - matrix(n, n, n, n, n, n)
         - (x축 이동, y축 이동, x축 크기, y축 크기, x축 기울임, y축 기울임)
-    
+- transform 3D 변환 함수
+    - 이동
+        - translate3d(x, y, z)
+        - translateZ(z)
+    - 크기
+        - scale3d(x, y, z)
+        - scaleZ(z)
+    - 회전
+        - rotate3d(x, y, z, a)
+        - rotateX(x)
+        - rotateY(y)
+        - rotateZ(z)
+    - 원근법(거리)
+        - perspectice(n)
+        - transform의 가장 앞부분에 작성되어야함.
+    - 3차원 변환 효과
+        - matrix3d(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)
 - [transform mdn](https://developer.mozilla.org/ko/docs/Web/CSS/transform "transfrom mdn")
