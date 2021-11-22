@@ -767,6 +767,8 @@ font-family: 글꼴 후보, 글꼴후보2..., 글꼴계열;
 
 #
 
+# 배경
+
 ### clear
 float 속성이 적용되지 않도록 지정(해제)
 - 기본값 : none
@@ -886,3 +888,43 @@ float 속성이 적용되지 않도록 지정(해제)
     - contain : 배경 이미지의 크기 비율을 유지하며, 요소의 더 짧은 너비에 맞춰짐
         - 요소의 더 짧은 너비에 맞춰지므로 이미지가 잘리지는 않음.
 - [background-size mdn](https://developer.mozilla.org/ko/docs/Web/CSS/background-size "background-size mdn")
+
+# 
+
+# 전환 & 변환
+
+### transition
+CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전환 효과)
+- 단축속성
+- 주로 바뀌기 전 상태의 요소에 작성
+- 값 (개별 속성)
+    - transition-property : 전환 효과를 사용할 속성 이름
+        - 기본값 : all
+        - [transition-property mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property "transition mdn")
+    - transition-duration : 전환 효과의 지속시간 설정
+        - 기본값 : 0s
+        - [transition-duration mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration "transition-duration mdn")
+    - transition-timing-function : [타이밍 함수](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function "타이밍 함수") 지정
+        - 전환이 이루어질 때 어떠한 형식으로 전환효과가 이루어질 지 정하는 것.
+        - 값
+            - ease : 빠르게 - 느리게 (기본값)
+                - cubic-bezier(.25, .1, .25, 1)
+            - linear : 일정하게
+                - cubic-bezier(0, 0, 1, 1)
+            - ease-in : 느리게 - 빠르게
+                - cubic-bezier(.42, 0, 1, 1)
+            - ease-out : 빠르게 - 느리게
+                - cubic-bezier(0, 0, .58, 1)
+            - ease-in-out : 느리게-빠르게-느리게
+                - cubic-bezier(.42, 0, .58, 1)
+            - cubic-bezier(n,n,n,n) : 자신만의 값을 정의 (0~1)
+            - steps(n) : n 번 분할된 애니메이션
+        - [transition-timing-function mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function "transition-timing-function mdn")
+    - transition-delay : 전환 효과의 대기시간 설정
+        - 기본값 : 0s
+        - transition 속성으로 숫자를 두 개 쓰면 앞 쪽은 duration, 뒤 쪽은 delay
+        - [transition-delay mdn](https://developer.mozilla.org/ko/docs/Web/CSS/transition-delay "transition-delay mdn")
+- [transition mdn](https://developer.mozilla.org/ko/docs/Web/CSS/transition "transition mdn")
+
+#
+
