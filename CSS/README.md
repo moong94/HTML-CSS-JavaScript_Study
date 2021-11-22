@@ -948,7 +948,7 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
     - 2차원 변환 효과
         - 위 네 가지를 모두 아우르는 경우
         - matrix(n, n, n, n, n, n)
-        - (x축 이동, y축 이동, x축 크기, y축 크기, x축 기울임, y축 기울임)
+        - matrix 함수를 사용하지 않고 위의 함수들을 사용하더라도 브라우저에 의해 matrix 함수로 변환되어 적용 됨.
 - transform 3D 변환 함수
     - 이동
         - translate3d(x, y, z)
@@ -1000,3 +1000,4 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
         - visible : 뒷면 숨기지 않음(기본값)
         - hidden : 뒷면 숨김
     - [backface-visibility mdn](https://developer.mozilla.org/ko/docs/Web/CSS/backface-visibility "backface-visibility mdn")
+    
