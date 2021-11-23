@@ -1035,3 +1035,22 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
     - 0s : 기본값
 - [animation-duration mdn](https://developer.mozilla.org/ko/docs/Web/CSS/animation-duration "animation-duration mdn")
 
+#
+
+### animation-timing-function
+타이밍 함수(애니메이션 효과를 계산하는 방법)지정
+- 값
+    - ease : 빠르게 - 느리게 (기본값)
+        - cubic-bezier(.25, .1, .25, 1)
+    - linear : 일정하게
+        - cubic-bezier(0, 0, 1, 1)
+    - ease-in : 느리게 - 빠르게
+        - cubic-bezier(.42, 0, 1, 1)
+    - ease-out : 빠르게 - 느리게
+        - cubic-bezier(0, 0, .58, 1)
+    - ease-in-out : 느리게-빠르게-느리게
+        - cubic-bezier(.42, 0, .58, 1)
+    - cubic-bezier(n,n,n,n) : 자신만의 값을 정의 (0~1)
+    - steps(n) : n 번 분할된 애니메이션
+- [transition-timing-function mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function "transition-timing-function mdn")
+
