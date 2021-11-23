@@ -1027,3 +1027,11 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
 - none: 애니메이션을 지정하지 않음(기본값)
 - [animation-name mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name "animation-name mdn")
 
+#
+
+### animation-duration
+애니메이션의 지속 시간 설정
+- 시간 : 지속시간을 설정
+    - 0s : 기본값
+- [animation-duration mdn](https://developer.mozilla.org/ko/docs/Web/CSS/animation-duration "animation-duration mdn")
+
