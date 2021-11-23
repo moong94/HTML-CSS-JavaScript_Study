@@ -1000,4 +1000,24 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
         - visible : 뒷면 숨기지 않음(기본값)
         - hidden : 뒷면 숨김
     - [backface-visibility mdn](https://developer.mozilla.org/ko/docs/Web/CSS/backface-visibility "backface-visibility mdn")
-    
+
+#
+
+# 애니메이션 & 다단
+
+### animation
+요소에 애니메이션을 설정/제어
+- @keyframes으로 애니메이션 선언
+    - 2개 이상의 애니메이션 중간 상태(프레임)을 지정
+    - @keyframes rule
+        ```css
+            @keyframes 애니메이션이름{
+                0% {속성: 값;}
+                50% {속성: 값;}
+                100% {속성: 값;}
+            }
+        ```
+- animation: 애니메이션이름 지속시간 타이밍함수 대기시간 반복횟수 반복방향 전후상태 재생/정지;
+- [animation mdn](https://developer.mozilla.org/ko/docs/Web/CSS/animation "animation mdn")
+
+#
