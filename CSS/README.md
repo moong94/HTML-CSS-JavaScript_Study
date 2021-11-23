@@ -1094,3 +1094,12 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
 - [animation-fill-mode mdn](https://developer.mozilla.org/ko/docs/Web/CSS/animation-fill-mode "animation-fill-mode mdn")
 
 #
+
+### animation-play-state
+애니메이션의 재생과 정지를 설정
+- 값
+    - running : 애니메이션을 동작(기본값)
+    - paused : 애니메이션 동작을 정지
+- [animation-play-state mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state "animation-play-state mdn")
+
+#
