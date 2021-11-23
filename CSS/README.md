@@ -1082,3 +1082,15 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
 - alternate-reverse : 역방향에서 정방향으로 반복(왕복)
 - [animation-direction mdn](https://developer.mozilla.org/ko/docs/Web/CSS/animation-direction "animation-direction mdn")
 
+#
+
+### animation-fill-mode
+애니메이션의 전후 상태(위치)를 설정
+- 값
+    - none : 기존 위치에서 시작 -> 애니메이션 시작 위치로 이동 -> 동작 -> 기존 위치에서 끝 (기본값)
+    - forwards : 기존 위치에서 시작 -> 애니메이션 시작 위치로 이동 -> 동작 -> 애니메이션 끝 위치에서 끝
+    - backwards : 애니메이션 시작 위치에서 시작 -> 동작 -> 기존 위치에서 끝
+    - both : 애니메이션 시작 위치에서 시작 -> 동작 -> 애니메이션 끝 위치에서 끝
+- [animation-fill-mode mdn](https://developer.mozilla.org/ko/docs/Web/CSS/animation-fill-mode "animation-fill-mode mdn")
+
+#
