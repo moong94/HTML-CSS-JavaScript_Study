@@ -1054,3 +1054,13 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
     - steps(n) : n 번 분할된 애니메이션
 - [transition-timing-function mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function "transition-timing-function mdn")
 
+#
+
+### animation-delay
+애니메이션의 대기 시간 설정
+- 음수가 허용 됨
+- 시간: 지속시간을 설정
+    - 0s : 기본값
+- [animation-delay mdn](https://developer.mozilla.org/ko/docs/Web/CSS/animation-delay "animation-delay mdn")
+
+#
