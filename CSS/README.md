@@ -1064,3 +1064,11 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
 - [animation-delay mdn](https://developer.mozilla.org/ko/docs/Web/CSS/animation-delay "animation-delay mdn")
 
 #
+
+### animation-iteration-count
+애니메이션의 반복 횟수를 설정
+- 숫자 : 반복 횟수를 설정
+    - 1 : 기본값
+- infinite : 무한 반복
+- [animation-iteration-count mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count "animation-iteration-count mdn")
+
