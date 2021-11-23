@@ -1021,3 +1021,9 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
 - [animation mdn](https://developer.mozilla.org/ko/docs/Web/CSS/animation "animation mdn")
 
 #
+
+### animation-name
+@keyframes 규칙의 이름을 지정
+- none: 애니메이션을 지정하지 않음(기본값)
+- [animation-name mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name "animation-name mdn")
+
