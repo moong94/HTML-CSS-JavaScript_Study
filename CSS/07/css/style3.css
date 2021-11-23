@@ -3,27 +3,32 @@
     padding: 20px;
     display: flex;
     align-items: center;
-  }
-  h1 {
+}
+
+h1 {
     flex: 1;
     font-size: 24px;
     color: tomato;
-  }
-  h1 span {
+}
+
+h1 span {
     color: royalblue;
-  }
-  .animation-fill-mode {
+}
+
+.animation-fill-mode {
     width: 590px;
     height: 200px;
     border-bottom: 1px solid tomato;
     position: relative;
     margin: 20px;
     padding: 10px;
-  }
-  .animation-fill-mode.both {
+}
+
+.animation-fill-mode.both {
     border-bottom: none;
-  }
-  .point {
+}
+
+.point {
     width: 100px;
     height: 100px;
     border: 1px dashed tomato;
@@ -36,16 +41,19 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
-  .point.start {
+}
+
+.point.start {
     top: 80px;
     left: 150px;
-  }
-  .point.end {
+}
+
+.point.end {
     top: 80px;
     left: 500px;
-  }
-  .animation {
+}
+
+.animation {
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -54,28 +62,34 @@
     animation: hello 3s 1s;
     opacity: .75;
     z-index: 1;
-  }
-  .forwards .animation {
+}
+
+.forwards .animation {
     animation-fill-mode: forwards;
-  }
-  .backwards .animation {
+}
+
+.backwards .animation {
     animation-fill-mode: backwards;
-  }
-  .both .animation {
+}
+
+.both .animation {
     animation-fill-mode: both;
-  }
-  @keyframes hello {
+}
+
+@keyframes hello {
     0% {
-      background: tomato;
-      top: 80px;
-      left: 150px;
+        background: tomato;
+        top: 80px;
+        left: 150px;
     }
+
     100% {
-      top: 80px;
-      left: 500px;
+        top: 80px;
+        left: 500px;
     }
-  }
-  .reset {
+}
+
+.reset {
     background: tomato;
     margin-left: 20px;
     padding: 4px 10px;
@@ -83,10 +97,12 @@
     border-radius: 4px;
     cursor: pointer;
     transition: .2s;
-  }
-  .reset:hover {
+}
+
+.reset:hover {
     background: royalblue;
-  }
-  .reset:active {
+}
+
+.reset:active {
     transform: scale(1.2);
-  }
+}

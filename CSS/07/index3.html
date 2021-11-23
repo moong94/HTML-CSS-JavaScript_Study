@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,59 +8,61 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style3.css">
 </head>
+
 <body>
     <div class="title clearfix">
         <h1>animation-fill-mode: <span>none</span>;</h1>
         <div class="reset">RESET</div>
-      </div>
-      <div class="animation-fill-mode none">
+    </div>
+    <div class="animation-fill-mode none">
         <div class="point default">요소의<br>기존 위치<br>1, 4</div>
         <div class="point start">애니메이션<br>시작 위치<br>2</div>
         <div class="point end">애니메이션<br>끝 위치<br>3</div>
         <div class="target animation"></div>
-      </div>
-      
-      <div class="title clearfix">
+    </div>
+
+    <div class="title clearfix">
         <h1>animation-fill-mode: <span>forwards</span>;</h1>
         <div class="reset">RESET</div>
-      </div>
-      <div class="animation-fill-mode forwards">
+    </div>
+    <div class="animation-fill-mode forwards">
         <div class="point default">요소의<br>기존 위치<br>1</div>
         <div class="point start">애니메이션<br>시작 위치<br>2</div>
         <div class="point end">애니메이션<br>끝 위치<br>3</div>
         <div class="target animation"></div>
-      </div>
-      
-      <div class="title clearfix">
+    </div>
+
+    <div class="title clearfix">
         <h1>animation-fill-mode: <span>backwards</span>;</h1>
         <div class="reset">RESET</div>
-      </div>
-      <div class="animation-fill-mode backwards">
+    </div>
+    <div class="animation-fill-mode backwards">
         <div class="point default">요소의<br>기존 위치<br>3</div>
         <div class="point start">애니메이션<br>시작 위치<br>1</div>
         <div class="point end">애니메이션<br>끝 위치<br>2</div>
         <div class="target animation"></div>
-      </div>
-      
-      <div class="title clearfix">
+    </div>
+
+    <div class="title clearfix">
         <h1>animation-fill-mode: <span>both</span>;</h1>
         <div class="reset">RESET</div>
-      </div>
-      <div class="animation-fill-mode both">
+    </div>
+    <div class="animation-fill-mode both">
         <div class="point default">요소의<br>기존 위치<br>x</div>
         <div class="point start">애니메이션<br>시작 위치<br>1</div>
         <div class="point end">애니메이션<br>끝 위치<br>2</div>
         <div class="target animation"></div>
-      </div>
-      <script>
-          $('.reset').on('click', function () {
+    </div>
+    <script>
+        $('.reset').on('click', function () {
             var _this = this;
-            
+
             $(this).parent().next().find('.target').removeClass('animation');
             setTimeout(function () {
                 $(_this).parent().next().find('.target').addClass('animation');
             }, 100);
-            })
-      </script>
+        })
+    </script>
 </body>
+
 </html>
