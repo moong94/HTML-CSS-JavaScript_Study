@@ -1083,3 +1083,24 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
 - [animation-direction mdn](https://developer.mozilla.org/ko/docs/Web/CSS/animation-direction "animation-direction mdn")
 
 #
+
+### animation-fill-mode
+애니메이션의 전후 상태(위치)를 설정
+- 값
+    - none : 기존 위치에서 시작 -> 애니메이션 시작 위치로 이동 -> 동작 -> 기존 위치에서 끝 (기본값)
+    - forwards : 기존 위치에서 시작 -> 애니메이션 시작 위치로 이동 -> 동작 -> 애니메이션 끝 위치에서 끝
+    - backwards : 애니메이션 시작 위치에서 시작 -> 동작 -> 기존 위치에서 끝
+    - both : 애니메이션 시작 위치에서 시작 -> 동작 -> 애니메이션 끝 위치에서 끝
+
+#
+
+### animation-play-state
+애니메이션의 재생과 정지를 설정
+- 값
+    - running : 애니메이션을 동작(기본값)
+    - paused : 애니메이션 동작을 정지
+
+#
+
+### 다단(Multi Columns)
+일반 블록 레이아웃을 확장하여 여러 텍스트 다단으로 쉽게 정리하며, 가독성 확보
