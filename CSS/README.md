@@ -1072,3 +1072,14 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
 - infinite : 무한 반복
 - [animation-iteration-count mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count "animation-iteration-count mdn")
 
+#
+
+### animation-direction
+애니메이션의 반복 방향을 설정
+- normal : 정방향만 반복(기본값)
+- reverse : 역방향만 반복
+- alternate : 정방향에서 역방향으로 반복(왕복)
+- alternate-reverse : 역방향에서 정방향으로 반복(왕복)
+- [animation-direction mdn](https://developer.mozilla.org/ko/docs/Web/CSS/animation-direction "animation-direction mdn")
+
+#
