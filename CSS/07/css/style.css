@@ -1,0 +1,49 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    border-radius: 10px;
+}
+
+.box:hover {
+    animation: first-animation 2s infinite alternate;
+}
+
+@keyframes first-animation {
+    0% {
+        width: 100px;
+    }
+
+    100% {
+        width: 500px;
+    }
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    border-radius: 10px;
+}
+
+.box2:hover {
+    animation: my-animation 3s infinite alternate;
+}
+
+@keyframes my-animation {
+    0% {
+        width: 100px;
+        background: tomato;
+    }
+
+    75% {
+        width: 500px;
+        background: dodgerblue;
+    }
+
+    100% {
+        width: 300px;
+        background: yellowgreen;
+    }
+
+}
