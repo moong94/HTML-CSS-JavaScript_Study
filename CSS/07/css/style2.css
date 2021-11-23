@@ -1,0 +1,49 @@
+.box {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background: tomato;
+}
+
+.box2 {
+    background: dodgerblue;
+}
+
+.box3 {
+    background: yellowgreen;
+}
+
+.box1:hover {
+    animation: size-up 1s 2 alternate linear;
+    /* animation-timing-function: linear; */
+    animation-delay: 0s;
+}
+
+.box2:hover {
+    animation: size-up 1s 2 alternate;
+    animation-delay: 1s
+}
+
+.box3:hover {
+    animation: size-up 1s 2 alternate;
+    animation-delay: -1s
+}
+
+@keyframes size-up {
+    0% {
+        width: 150px;
+    }
+
+    100% {
+        width: 300px;
+    }
+}
