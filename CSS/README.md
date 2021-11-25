@@ -1103,3 +1103,17 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
 - [animation-play-state mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state "animation-play-state mdn")
 
 #
+
+### 다단(Multi Columns)
+일반 블록 레이아웃을 확장하여 여러 텍스트 다단으로 쉽게 정리하며, 가독성 확보
+- columns (단축)
+    - column-count : 다단이 몇 개인지 설정
+    - column-width : 각 다단의 너비 설정
+    - [columns mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/columns "columns mdn")
+- column-rule (단축)
+    - column-rule-width : 단을 나누는 선의 너비
+    - column-rule-style : 단을 나누는 선의 스타일
+    - column-rule-color : 단을 나누는 선의 색상
+    - [column-rule mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule "column-rule mdn")
+- column-gap : column-rule을 기준으로 좌,우측의 간격 설정
+    - [column-gap mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap "column-gap mdn")
