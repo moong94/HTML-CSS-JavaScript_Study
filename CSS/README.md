@@ -1144,7 +1144,21 @@ Flex Container를 위한 속성
     - wrap-reverse : Items를 wrap의 역 방향으로 여러 줄로 묶음
     - ![Flex-wrap](../images/flex-wrap.png)
 - justify-content : 주축의 정렬 방법을 설정
-- align-content : 교차 축의 정렬 방법을 설정(2줄 이상)
+    - flex-start : Items를 시작점(flex-start)으로 정렬(기본값)
+    - flex-end : Items를 끝점(flex-end)으로 정렬
+    - center : Items를 가운데 정렬
+    - space-between : 시작 Item은 시작점에, 마지막 Item은 끝점에 정렬되고 나머지 Items는 사이에 고르게 정렬됨
+    - space-around : Items를 균등한 여백을 포함하여 정렬
+    - ![Justify-content](../images/justify-content.png)
+        - flex-direction이 row인 경우
+- align-content : 교차 축의 정렬 방법을 설정(flex-wrap 속성을 통해 2줄 이상 & 여백이 있을 경우에만 사용 가능)
+    - stretch : Container의 교차 축을 채우기 위해 Items를 늘림
+    - flex-start : Items를 시작점(flex-start)으로 정렬
+    - flex-end : Items를 끝점(flex-end)으로 정렬
+    - center : Items를 가운데 정렬
+    - space-between : 시작 Item은 시작점에, 마지막 Item은 끝점에 정렬되고 나머지 Items는 사이에 고르게 정렬됨
+    - space-around : Items를 균등한 여백을 포함하여 정렬
+    - ![align-content](../images/align-content.png)
 - align-items : 교차 축에서 Items의 정렬 방법을 설정(1줄)
 
 #
@@ -1159,6 +1173,6 @@ Flex Container를 위한 속성
 - 방향에 따라 시작점과 끝점이 달라짐
 ![flex-start||flex-end](../images/start-end.png)
 - 교차 축의 경우 시작점과 끝점은 달라지지 않는다.
-![cross-start||cross-end](../images/corss-start-end.png)
+![cross-start||cross-end](../images/cross-start-end.png)
 
 #
