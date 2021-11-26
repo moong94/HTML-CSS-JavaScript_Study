@@ -4,7 +4,6 @@
 }
 
 .container .item {
-    width: 100px;
     height: 100px;
     background: tomato;
     border: 4px dashed red;
@@ -20,5 +19,5 @@
 }
 
 .item3 {
-    flex-grow: 3;
+    width: 100px;
 }
