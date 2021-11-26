@@ -1137,9 +1137,20 @@ Flex Container를 위한 속성
     - row-reverse : Items를 row의 반대 축으로 표시
     - column : Items를 수직축(위에서 아래로)으로 표시
     - column-reverse : Items를 column의 반대 축으로 표시
+    - ![Flex-direction](../images/flexible-direction.png)
 - flex-wrap : Flex Items의 여루 줄 묶음(줄 바꿈) 설정
 - justify-content : 주축의 정렬 방법을 설정
 - align-content : 교차 축의 정렬 방법을 설정(2줄 이상)
 - align-items : 교차 축에서 Items의 정렬 방법을 설정(1줄)
 
 #
+
+### 주축(main-axis) & 교차 축(cross-axis)
+- flex-direction의 값이 row일 경우 main-axis는 row(수평), cross-axis는 column(수직)
+- flex-direction의 값이 column일 경우 main-axis는 column(수직), cross-axis는 row(수평)
+![Flex-axis](../images/axis.png)
+
+### 시작점(flex-start || main-start) & 끝점(flex-end || main-end)
+- 주 축이나 교차 축의 시작하는 지점과 끝나는 지점 지칭
+- 방향에 따라 시작점과 끝점이 달라짐
+![flex-start||flex-end](../images/start-end.png)
