@@ -1132,8 +1132,14 @@ Flex Container를 위한 속성
     - flex : container 자체가 block 요소처럼 쌓임
     - inline-flex : container 자체가 inline 요소처럼 수평으로 쌓임
 - flex-flow : flex-direction과 flex-wrap의 단축 속성
-- flex-direction : Flex Items의 주 축을 설정
+- flex-direction : Flex Items의 주 축(main-axis)을 설정
+    - row : Items를 수평축(왼쪽에서 오른쪽으로)표시 (기본값)
+    - row-reverse : Items를 row의 반대 축으로 표시
+    - column : Items를 수직축(위에서 아래로)으로 표시
+    - column-reverse : Items를 column의 반대 축으로 표시
 - flex-wrap : Flex Items의 여루 줄 묶음(줄 바꿈) 설정
 - justify-content : 주축의 정렬 방법을 설정
 - align-content : 교차 축의 정렬 방법을 설정(2줄 이상)
 - align-items : 교차 축에서 Items의 정렬 방법을 설정(1줄)
+
+#
