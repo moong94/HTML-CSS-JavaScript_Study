@@ -1214,5 +1214,11 @@ Flex Items에 부여되는 속성
     - 0 : 기본값
     - ![flex-shrink](../images/flex-shrink.png)
     - [flex-shrink mdn](https://developer.mozilla.org/ko/docs/Web/CSS/flex-shrink "flex-shrink mdn")
-- flex-basis : Flex Itme의 (공간 배분 전) 기본 너비 설정
+- flex-basis : Flex Item의 (공간 배분 전) 기본 너비 설정
+    - 값이 auto일 경우 width, height 등의 속성으로 Item의 너비를 설정할 수 있음.
+        - auto일 경우 Item의 contents를 제외한 나머지 여백을 가지고 비율을 설정
+    - 단위 값이 주어질 경우 요소가 가지고 있을 기본 너비를 설정하고 나머지 여백으로 비율을 설정.
+    - flex 단축 속성 내에서 flex-basis를 생략하면 0이 됨.
+    - ![flex-basis](../images/flex-basis.png)
+    - [flex-basis mdn](https://developer.mozilla.org/ko/docs/Web/CSS/flex-basis "flex-basis mdn")
 - align-self : 교차 축(cross-axis)에서 Item의 정렬 방법을 설정
