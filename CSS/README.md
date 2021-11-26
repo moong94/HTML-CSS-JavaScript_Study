@@ -1189,3 +1189,17 @@ Flex Container를 위한 속성
 ![cross-start||cross-end](../images/cross-start-end.png)
 
 #
+
+### Flex Items
+Flex Items에 부여되는 속성
+    - order : Flex Item의 순서를 설정
+        - Item에 숫자를 지정하고 숫자가 클수록 순서가 밀린다.
+        - 값이 같을 경우 HTML에 작성한 순서로 표현
+        - 음수 허용
+        - 0 : 기본값
+        - [order mdn](https://developer.mozilla.org/ko/docs/Web/CSS/order "order mdn")
+    - flex : flex-grow, flex-whrink, flex-basis의 단축 속성
+    - flex-grow : Flex Item의 증가 너비 비율을 설정
+    - flex-shrink : Flex Item의 감소 너비 비율을 설정
+    - flex-basis : Flex Itme의 (공간 배분 전) 기본 너비 설정
+    - align-self : 교차 축(cross-axis)에서 Item의 정렬 방법을 설정
