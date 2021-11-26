@@ -1,0 +1,12 @@
+.container {
+    border: 4px solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .item {
+    width: 150px;
+    height: 100px;
+    background: tomato;
+    border: 4px dashed red;
+}
