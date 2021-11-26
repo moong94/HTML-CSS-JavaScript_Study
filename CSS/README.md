@@ -1199,6 +1199,8 @@ Flex Items에 부여되는 속성
     - 0 : 기본값
     - [order mdn](https://developer.mozilla.org/ko/docs/Web/CSS/order "order mdn")
 - flex : flex-grow, flex-whrink, flex-basis의 단축 속성
+    - 기본값 : flex: 0 1 auto;
+        - flex-basis의 기본값은 auto이지만 flex 단축 속성을 사용할 때 flex-basis를 명시하지 않으면 flex-basis는 0으로 설정
     - [flex mdn](https://developer.mozilla.org/ko/docs/Web/CSS/flex "flex mdn")
 - flex-grow : Flex Item의 증가 너비 비율을 설정
     - 숫자가 크면 더 많은 너비를 가짐
