@@ -1132,17 +1132,20 @@ Flex Container를 위한 속성
     - flex : container 자체가 block 요소처럼 쌓임
     - inline-flex : container 자체가 inline 요소처럼 수평으로 쌓임
 - flex-flow : flex-direction과 flex-wrap의 단축 속성
+    - [flex-flow mdn](https://developer.mozilla.org/ko/docs/Web/CSS/flex-flow "flex-flow mdn")
 - flex-direction : Flex Items의 주 축(main-axis)을 설정
     - row : Items를 수평축(왼쪽에서 오른쪽으로)표시 (기본값)
     - row-reverse : Items를 row의 반대 축으로 표시
     - column : Items를 수직축(위에서 아래로)으로 표시
     - column-reverse : Items를 column의 반대 축으로 표시
     - ![Flex-direction](../images/flexible-direction.png)
+    - [flex-direction mdn](https://developer.mozilla.org/ko/docs/Web/CSS/flex-direction "flex-direction mdn")
 - flex-wrap : Flex Items의 여루 줄 묶음(줄 바꿈) 설정
     - nowrap : 모든 Items를 여러 줄로 묶지 않음(한 줄에 표시 / 기본값)
     - wrap : Items를 여러 줄로 묶음
     - wrap-reverse : Items를 wrap의 역 방향으로 여러 줄로 묶음
     - ![Flex-wrap](../images/flex-wrap.png)
+    - [flex-wrap mdn](https://developer.mozilla.org/ko/docs/Web/CSS/flex-wrap "flex-wrap mdn")
 - justify-content : 주축의 정렬 방법을 설정
     - flex-start : Items를 시작점(flex-start)으로 정렬(기본값)
     - flex-end : Items를 끝점(flex-end)으로 정렬
@@ -1151,6 +1154,7 @@ Flex Container를 위한 속성
     - space-around : Items를 균등한 여백을 포함하여 정렬
     - ![Justify-content](../images/justify-content.png)
         - flex-direction이 row인 경우
+    - [justify-content mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content "justify-content mdn")
 - align-content : 교차 축의 정렬 방법을 설정(flex-wrap 속성을 통해 2줄 이상 & 여백이 있을 경우에만 사용 가능)
     - stretch : Container의 교차 축을 채우기 위해 Items를 늘림 (기본값)
     - flex-start : Items를 시작점(flex-start)으로 정렬
@@ -1159,6 +1163,7 @@ Flex Container를 위한 속성
     - space-between : 시작 Item은 시작점에, 마지막 Item은 끝점에 정렬되고 나머지 Items는 사이에 고르게 정렬됨
     - space-around : Items를 균등한 여백을 포함하여 정렬
     - ![align-content](../images/align-content.png)
+    - [align-content mdn](https://developer.mozilla.org/ko/docs/Web/CSS/align-content "align-content mdn")
 - align-items : 교차 축에서 Items의 정렬 방법을 설정(1줄)
     - flex-wrap을 통해 여러 줄 이상일 경우 align-content 속성이 우선하므로 align-items를 사용하려면 align-content 속성을 기본값(stretch)으로 설정해야한다.
     - stretch : Container의 교차 축을 채우기 위해 Items를 늘림 (기본값)
@@ -1167,7 +1172,8 @@ Flex Container를 위한 속성
     - center : Items를 가운데 정렬
     - baseline : Items를 문자 기준선에 정렬
     - ![align-items](../images/align-items.png)
-
+    - [align-items mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items "align-items mdn")
+- [flex-container mdn](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#flex_%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88 "flex-container mdn")
 #
 
 ### 주축(main-axis) & 교차 축(cross-axis)
