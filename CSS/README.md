@@ -1117,3 +1117,23 @@ CSS 속성의 시작과 끝을 지정 하여 중간 값을 애니메이션(전�
     - [column-rule mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule "column-rule mdn")
 - column-gap : column-rule을 기준으로 좌,우측의 간격 설정
     - [column-gap mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap "column-gap mdn")
+
+#
+
+# Flex
+Container & Items
+- Container는 Itmes를 감싸는 부모 요소이며, 각 Item을 정렬하기 위해 Container가 필수
+- Container와 Items에 적용하는 속성이 구분되어 있음.
+![Flexible_box](../images/flexible_box.png)
+
+### Flex Containers
+Flex Container를 위한 속성
+- display : Container 자체를 정의
+    - flex : container 자체가 block 요소처럼 쌓임
+    - inline-flex : container 자체가 inline 요소처럼 수평으로 쌓임
+- flex-flow : flex-direction과 flex-wrap의 단축 속성
+- flex-direction : Flex Items의 주 축을 설정
+- flex-wrap : Flex Items의 여루 줄 묶음(줄 바꿈) 설정
+- justify-content : 주축의 정렬 방법을 설정
+- align-content : 교차 축의 정렬 방법을 설정(2줄 이상)
+- align-items : 교차 축에서 Items의 정렬 방법을 설정(1줄)
