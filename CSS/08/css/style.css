@@ -1,0 +1,18 @@
+/* .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+.container {
+    border: 2px solid red;
+    display: inline-flex;
+}
+
+.container .item {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 10px;
+    display: inline-block;
+}
