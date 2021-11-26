@@ -1160,7 +1160,13 @@ Flex Container를 위한 속성
     - space-around : Items를 균등한 여백을 포함하여 정렬
     - ![align-content](../images/align-content.png)
 - align-items : 교차 축에서 Items의 정렬 방법을 설정(1줄)
-
+    - flex-wrap을 통해 여러 줄 이상일 경우 align-content 속성이 우선하므로 align-items를 사용하려면 align-content 속성을 기본값(stretch)으로 설정해야한다.
+    - stretch : Container의 교차 축을 채우기 위해 Items를 늘림 (기본값)
+    - flex-start : Items를 시작점(flex-start)으로 정렬
+    - flex-end : Items를 끝점(flex-end)으로 정렬
+    - center : Items를 가운데 정렬
+    - baseline : Items를 문자 기준선에 정렬
+    - ![align-items](../images/align-items.png)
 
 #
 
