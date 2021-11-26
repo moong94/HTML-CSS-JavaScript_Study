@@ -1192,21 +1192,27 @@ Flex Container를 위한 속성
 
 ### Flex Items
 Flex Items에 부여되는 속성
-    - order : Flex Item의 순서를 설정
-        - Item에 숫자를 지정하고 숫자가 클수록 순서가 밀린다.
-        - 값이 같을 경우 HTML에 작성한 순서로 표현
-        - 음수 허용
-        - 0 : 기본값
-        - [order mdn](https://developer.mozilla.org/ko/docs/Web/CSS/order "order mdn")
-    - flex : flex-grow, flex-whrink, flex-basis의 단축 속성
-    - flex-grow : Flex Item의 증가 너비 비율을 설정
-        - 숫자가 크면 더 많은 너비를 가짐
-        - Item이 가변 너비가 아니거나, 값이 0일 경우 효과가 없음.
-        - 0 : 기본값
-        - 각 Item의 flex-grow 값을 더한 후 지정된 값만큼의 비율을 너비로 가짐
-        - 너비가 지정되어 있는 경우 영향을 받을 수 있음
-        - ![flex-grow](../images/flex-grow.png)
-        - [flex-grow mdn](https://developer.mozilla.org/ko/docs/Web/CSS/flex-grow "flex-grow mdn")
-    - flex-shrink : Flex Item의 감소 너비 비율을 설정
-    - flex-basis : Flex Itme의 (공간 배분 전) 기본 너비 설정
-    - align-self : 교차 축(cross-axis)에서 Item의 정렬 방법을 설정
+- order : Flex Item의 순서를 설정
+    - Item에 숫자를 지정하고 숫자가 클수록 순서가 밀린다.
+    - 값이 같을 경우 HTML에 작성한 순서로 표현
+    - 음수 허용
+    - 0 : 기본값
+    - [order mdn](https://developer.mozilla.org/ko/docs/Web/CSS/order "order mdn")
+- flex : flex-grow, flex-whrink, flex-basis의 단축 속성
+    - [flex mdn](https://developer.mozilla.org/ko/docs/Web/CSS/flex "flex mdn")
+- flex-grow : Flex Item의 증가 너비 비율을 설정
+    - 숫자가 크면 더 많은 너비를 가짐
+    - Item이 가변 너비가 아니거나, 값이 0일 경우 효과가 없음.
+    - 0 : 기본값
+    - 각 Item의 flex-grow 값을 더한 후 지정된 값만큼의 비율을 너비로 가짐
+    - 너비가 지정되어 있는 경우 영향을 받을 수 있음
+    - ![flex-grow](../images/flex-grow.png)
+    - [flex-grow mdn](https://developer.mozilla.org/ko/docs/Web/CSS/flex-grow "flex-grow mdn")
+- flex-shrink : Flex Item의 감소 너비 비율을 설정
+    - 숫자가 크면 더 많은 너비가 감소됨.
+    - Item이 가변 너비가 아니거나, 값이 0일 경우 효과가 없음.
+    - 0 : 기본값
+    - ![flex-shrink](../images/flex-shrink.png)
+    - [flex-shrink mdn](https://developer.mozilla.org/ko/docs/Web/CSS/flex-shrink "flex-shrink mdn")
+- flex-basis : Flex Itme의 (공간 배분 전) 기본 너비 설정
+- align-self : 교차 축(cross-axis)에서 Item의 정렬 방법을 설정
