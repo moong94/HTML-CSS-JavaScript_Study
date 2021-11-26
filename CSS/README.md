@@ -1139,6 +1139,10 @@ Flex Container를 위한 속성
     - column-reverse : Items를 column의 반대 축으로 표시
     - ![Flex-direction](../images/flexible-direction.png)
 - flex-wrap : Flex Items의 여루 줄 묶음(줄 바꿈) 설정
+    - nowrap : 모든 Items를 여러 줄로 묶지 않음(한 줄에 표시 / 기본값)
+    - wrap : Items를 여러 줄로 묶음
+    - wrap-reverse : Items를 wrap의 역 방향으로 여러 줄로 묶음
+    - ![Flex-wrap](../images/flex-wrap.png)
 - justify-content : 주축의 정렬 방법을 설정
 - align-content : 교차 축의 정렬 방법을 설정(2줄 이상)
 - align-items : 교차 축에서 Items의 정렬 방법을 설정(1줄)
@@ -1156,3 +1160,5 @@ Flex Container를 위한 속성
 ![flex-start||flex-end](../images/start-end.png)
 - 교차 축의 경우 시작점과 끝점은 달라지지 않는다.
 ![cross-start||cross-end](../images/corss-start-end.png)
+
+#
