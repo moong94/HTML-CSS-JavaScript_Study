@@ -1152,7 +1152,7 @@ Flex Container를 위한 속성
     - ![Justify-content](../images/justify-content.png)
         - flex-direction이 row인 경우
 - align-content : 교차 축의 정렬 방법을 설정(flex-wrap 속성을 통해 2줄 이상 & 여백이 있을 경우에만 사용 가능)
-    - stretch : Container의 교차 축을 채우기 위해 Items를 늘림
+    - stretch : Container의 교차 축을 채우기 위해 Items를 늘림 (기본값)
     - flex-start : Items를 시작점(flex-start)으로 정렬
     - flex-end : Items를 끝점(flex-end)으로 정렬
     - center : Items를 가운데 정렬
@@ -1160,6 +1160,7 @@ Flex Container를 위한 속성
     - space-around : Items를 균등한 여백을 포함하여 정렬
     - ![align-content](../images/align-content.png)
 - align-items : 교차 축에서 Items의 정렬 방법을 설정(1줄)
+
 
 #
 
