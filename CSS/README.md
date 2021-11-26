@@ -1223,4 +1223,14 @@ Flex Items에 부여되는 속성
     - flex 단축 속성 내에서 flex-basis를 생략하면 0이 됨.
     - ![flex-basis](../images/flex-basis.png)
     - [flex-basis mdn](https://developer.mozilla.org/ko/docs/Web/CSS/flex-basis "flex-basis mdn")
-- align-self : 교차 축(cross-axis)에서 Item의 정렬 방법을 설정
+- align-self : 교차 축(cross-axis)에서 개별 Item의 정렬 방법을 설정
+    - align-itmes는 Container 내 모든 Items의 정렬 방법을 설정하지만 일부 Item만 정렬 방법을 변경하려고 할 경우 align-self를 사용해서 설정 가능
+    - align-items 속성보다 우선적으로 적용.
+    - auto : Container의 align-items 속성을 상속받음 (기본값)
+    - stretch : Container의 교차 축을 채우기 위해 Item을 늘림
+    - flex-start : Items를 시작점(flex-start)으로 정렬
+    - flex-end : Items를 끝점(flex-end)으로 정렬
+    - center : Items를 가운데 정렬
+    - baseline : Items를 문자 기준선에 정렬
+    - ![align-self](../images/align-self.png)
+    - [align-self mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self "align-self mdn")
