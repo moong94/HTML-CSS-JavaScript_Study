@@ -1154,3 +1154,5 @@ Flex Container를 위한 속성
 - 주 축이나 교차 축의 시작하는 지점과 끝나는 지점 지칭
 - 방향에 따라 시작점과 끝점이 달라짐
 ![flex-start||flex-end](../images/start-end.png)
+- 교차 축의 경우 시작점과 끝점은 달라지지 않는다.
+![cross-start||cross-end](../images/corss-start-end.png)
