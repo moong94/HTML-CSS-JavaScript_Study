@@ -1243,7 +1243,15 @@ Flex Items에 부여되는 속성
 
 ### Grid Container
 - 정의된 컨테이너의 자식 요소들은 자동으로 Gird Items로 정의 됨
+- [grid mdn](https://developer.mozilla.org/ko/docs/Web/CSS/grid "grid mdn")
 - display : display 속성의 값으로 Grid Container를 정의하여 사용
     - grid : Block 특성의 Grid Container를 정의
     - inline-grid : Inline 특성의 Grid Container를 정의
-
+- grid-template-rows : 명시적으로 행의 크기 및 갯수를 정의, 동시에 라인의 이름도 정의할 수 있음
+    - fr (fraction, 공간 비율) 단위를 사용할 수 있다.
+    - repeat() 함수 사용가능
+    - [grid-template-rows mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows "grid-template-rows mdn")
+- grid-template-columns : 명시적으로 열의 크기 및 갯수를 정의, 동시에 라인의 이름도 정의할 수 있음
+    - fr (fraction, 공간 비율) 단위를 사용할 수 있다.
+    - repeat() 함수 사용가능
+    - [grid-template-columns mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns "grid-template-columns mdn")
