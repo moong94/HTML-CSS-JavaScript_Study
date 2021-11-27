@@ -1256,6 +1256,34 @@ Flex Items에 부여되는 속성
     - fr (fraction, 공간 비율) 단위를 사용할 수 있다.
     - repeat() 함수 사용가능
     - [grid-template-columns mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns "grid-template-columns mdn")
+- grid-template-areas : 지정된 그리드 영역 이름(grid-area)을 참조해 그리드 템플릿 생성
+    - grid-area는 grid Item에 적용하는 속성
+    - (.)을 통해 빈 공간 표시 가능
+    ```css
+        .container {
+            display: grid;
+            grid-template-rows: repeat(3, 100px);
+            grid-template-columns : repaet(3, 1fr);
+            grid-template-areas:
+                "header header header"
+                "main main aside"
+                "footer footer footer";
+        }
+        header { grid-area: header; }
+        main { grid-area: main; }
+        aside { grid-area: aside; }
+        footer { grid-area: footer; }
+    ```
+    - [grid-template-areas mdn](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout/Grid_template_areas "grid-template-areas mdn")
+- gap(grid-gap) : 각 행과 행, 열과 열 사이의 간격을 지정하는 단축 속성
+    - gap: row-gap column-gap;
+    - [gap mdn](https://developer.mozilla.org/ko/docs/Web/CSS/gap "gap mdn")
+- row-gap(grid-row-gap) : 각 행과 행 사이의 간격(Gutter)을 지정
+    - 그리드 선(Grid line)의 크기를 지정
+    - [row-gap mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/row-gap "row-gap mdn")
+- column-gap(grid-column-gap) : 각 열과 열 사이의 간격(Gutter)을 지정
+    - 그리드 선(Grid line)의 크기를 지정
+    - [column-gap](https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap "column-gap mdn")
 
 #
 
