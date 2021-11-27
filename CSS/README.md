@@ -1458,3 +1458,23 @@ Flex Items에 부여되는 속성
 - minmax() : 행/열의 '최소/최대 크기'를 정의
     - minmax(최소크기, 최대크기)
     - [minmax() mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax() "minmax() mdn")
+- fit-content() : 행/열의 크기를 그리드 아이템이 포함하는 내용 크기(Contents)에 맞춤
+    - 내용(content)의 최대 크기를 인수로 사용
+    - [fit-content() mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content() "fit-content() mdn")
+
+#
+
+### Grid Units(단위)
+- fr : 사용 가능한 공간에 대한 비율
+    - 다른 단위들이 같이 지정되었을 경우 다른 단위들을 사용하고 남은 공간에서의 비율을 나누어 사용
+- min-content : 그리드 아이템이 포함하는 내용의 최소 크기를 의미
+    - 줄바꿈을 완료하고 나서 content가 가지는 최소한의 크기
+    - 한글의 경우 줄바꿈이 아니라 한 글자단위로 나뉘어짐
+        - word-break: keep-all; 속성을 추가하여 해결 가능
+    - [min-content mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/min-content "min-content mdn")
+- max-content : 그리드 아이템이 포함하는 내용의 최소 크기를 의미
+    - content가 최대한으로 표시되는 크기
+    - [max-content mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/max-content "max-content mdn")
+
+#
+
