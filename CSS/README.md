@@ -1284,6 +1284,15 @@ Flex Items에 부여되는 속성
 - column-gap(grid-column-gap) : 각 열과 열 사이의 간격(Gutter)을 지정
     - 그리드 선(Grid line)의 크기를 지정
     - [column-gap](https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap "column-gap mdn")
+- grid-auto-rows : 암시적 행(Track)의 크기를 정의
+    - grid-template-*의 경우 명시적으로 크기를 정의하는 것
+    - 명시적으로 지정된 행 밖에 배치되어 있는 행의 크기를 정의
+    - [grid-auto-rows mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows "grid-auto-rows mdn")
+- grid-auto-columns : 암시적 열(Track)의 크기를 정의
+    - grid-template-*의 경우 명시적으로 크기를 정의하는 것
+    - 명시적으로 지정된 열 밖에 배치되어 있는 열의 크기를 정의
+    - [grid-auto-columns mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns "grid-auto-columns mdn")
+    
 
 #
 
