@@ -1331,6 +1331,19 @@ Flex Items에 부여되는 속성
 
 ### Grid Items
 - grid-row : grid-row-start와 grid-row-end의 단축 속성 (각 속성은 슬래쉬(/)로 구분)
+    - span 값을 확장의 개념으로 사용 가능
     - [grid-row mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row "grid-row mdn")
 - grid-column : grid-column-start와 grid-column-end의 단축 속성 (각 속성은 슬래쉬(/)로 구분)
+    - span 값을 확장의 개념으로 사용 가능
     - [grid-column mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column "grid-column mdn")
+- grid-area : grid-row-start, grid-column-start, grid-row-end, grid-column-end 의 단축 속성
+    - grid-template-areas가 참조할 영역의 이름을 설정할 수도 있음.
+    - 영역 이름을 설정할 경우 grid-row와 grid-column 개념은 무시됨.
+    ```css
+        .item {
+            grid-area: <grid-row-start> / <grid-column-start> / <grid-row-end> / <grid-column-end>;
+            /* row시작 / column시작 / row끝 / column끝 순서 주의 */
+        }
+    ```
+    - [grid-area mdn](https://developer.mozilla.org/ko/docs/Web/CSS/grid-area "grid-area mdn")
+    
