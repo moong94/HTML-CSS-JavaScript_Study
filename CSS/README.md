@@ -1234,3 +1234,16 @@ Flex Items에 부여되는 속성
     - baseline : Items를 문자 기준선에 정렬
     - ![align-self](../images/align-self.png)
     - [align-self mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self "align-self mdn")
+
+#
+
+# Grid
+- Flexible Box가 1차원 레이아웃을 위한 것이라면 CSS Grid는 2차원의 레이아웃 시스템을 제공함.
+- CSS Flex와 같이 Container와 Item 개념으로 구분되어 있음
+
+### Grid Container
+- 정의된 컨테이너의 자식 요소들은 자동으로 Gird Items로 정의 됨
+- display : display 속성의 값으로 Grid Container를 정의하여 사용
+    - grid : Block 특성의 Grid Container를 정의
+    - inline-grid : Inline 특성의 Grid Container를 정의
+
