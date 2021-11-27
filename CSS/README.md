@@ -1428,3 +1428,8 @@ Flex Items에 부여되는 속성
         - stretch : 행 축을 채우기 위해 그리드 아이템을 늘림
     - ![grid-justify-self](../images/grid-justify-self.png)
     - [justify-self mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self "justify-self mdn")
+- order: 그리드 아이템이 자동 배치되는 순서를 변경
+    - 숫자가 작을수록 앞서 배치됨
+    - 음수 사용 가능
+    - 기본값 : 0
+    - [order mdn](https://developer.mozilla.org/ko/docs/Web/CSS/order "order mdn")
