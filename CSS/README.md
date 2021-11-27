@@ -1287,10 +1287,12 @@ Flex Items에 부여되는 속성
 - grid-auto-rows : 암시적 행(Track)의 크기를 정의
     - grid-template-*의 경우 명시적으로 크기를 정의하는 것
     - 명시적으로 지정된 행 밖에 배치되어 있는 행의 크기를 정의
+    - 암시적 행은 양수 라인 번호만 사용 가능.
     - [grid-auto-rows mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows "grid-auto-rows mdn")
 - grid-auto-columns : 암시적 열(Track)의 크기를 정의
     - grid-template-*의 경우 명시적으로 크기를 정의하는 것
     - 명시적으로 지정된 열 밖에 배치되어 있는 열의 크기를 정의
+    - 암시적 열은 양수 라인 번호만 사용 가능.
     - [grid-auto-columns mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns "grid-auto-columns mdn")
     
 
