@@ -1254,7 +1254,7 @@ Flex Items에 부여되는 속성
     ```css
         .container {
             grid-template-rows: repeat(2, 100px 200px 50px);
-            <!-- grid-template-rows: 100px 200px 50px 100px 200px 50px -->
+            /* grid-template-rows: 100px 200px 50px 100px 200px 50px */
         }
     ```
     ```css
@@ -1270,7 +1270,7 @@ Flex Items에 부여되는 속성
     ```css
         .container {
             grid-template-columns: repeat(2, 100px 200px 50px);
-            <!-- grid-template-columns: 100px 200px 50px 100px 200px 50px -->
+            /* grid-template-columns: 100px 200px 50px 100px 200px 50px */
         }
     ```
     ```css
