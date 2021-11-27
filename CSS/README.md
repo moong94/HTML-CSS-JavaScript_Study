@@ -1251,10 +1251,34 @@ Flex Items에 부여되는 속성
 - grid-template-rows : 명시적으로 행의 크기 및 갯수를 정의, 동시에 라인의 이름도 정의할 수 있음
     - fr (fraction, 공간 비율) 단위를 사용할 수 있다.
     - repeat() 함수 사용가능
+    ```css
+        .container {
+            grid-template-rows: repeat(2, 100px 200px 50px);
+            <!-- grid-template-rows: 100px 200px 50px 100px 200px 50px -->
+        }
+    ```
+    ```css
+        .container {
+            grid-template-rows: [row1-start] 100px [row1-end row2-start] 200px [row2-end];
+        }
+    ```
+    - 라인에 중복된 이름을 지정할 수 있음.
     - [grid-template-rows mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows "grid-template-rows mdn")
 - grid-template-columns : 명시적으로 열의 크기 및 갯수를 정의, 동시에 라인의 이름도 정의할 수 있음
     - fr (fraction, 공간 비율) 단위를 사용할 수 있다.
     - repeat() 함수 사용가능
+    ```css
+        .container {
+            grid-template-columns: repeat(2, 100px 200px 50px);
+            <!-- grid-template-columns: 100px 200px 50px 100px 200px 50px -->
+        }
+    ```
+    ```css
+        .container {
+            grid-template-columns: [column1-start] 100px [column1-end column2-start] 200px [column2-end];
+        }
+    ```
+    - 라인에 중복된 이름을 지정할 수 있음.
     - [grid-template-columns mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns "grid-template-columns mdn")
 - grid-template-areas : 지정된 그리드 영역 이름(grid-area)을 참조해 그리드 템플릿 생성
     - grid-area는 grid Item에 적용하는 속성
