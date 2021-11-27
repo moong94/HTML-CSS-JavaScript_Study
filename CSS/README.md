@@ -1378,6 +1378,7 @@ Flex Items에 부여되는 속성
         - end : 끝점(아래쪽) 정렬
         - stretch : 열 축을 채우기 위해 그리드 아이템을 늘림
     - ![grid-align-items](../images/grid-align-items.png)
+    - [align-items mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items "align-items mdn")
 - justify-items : 그리드 아이템 들을 수평(행 축) 정렬
     - 그리드 아이템의 가로 너비가 자신이 속한 그리드 행(Track)의 크기보다 작아야 함.
     - 값
@@ -1387,6 +1388,7 @@ Flex Items에 부여되는 속성
         - end : 끝점(오른쪽) 정렬
         - stretch : 열 축을 채우기 위해 그리드 아이템을 늘림
     - ![grid-justify-items](../images/grid-justify-items.png)
+    - [justify-items mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items "justify-items mdn")
 #
 
 ### Grid Items
