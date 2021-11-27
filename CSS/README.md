@@ -1433,3 +1433,9 @@ Flex Items에 부여되는 속성
     - 음수 사용 가능
     - 기본값 : 0
     - [order mdn](https://developer.mozilla.org/ko/docs/Web/CSS/order "order mdn")
+- z-index : 아이템이 쌓이는 순서 변경 가능
+    - 숫자가 높을수록 위쪽에 배치됨
+    - 음수 사용 가능
+    - 기본값 : 0
+    - [z-index mdn](https://developer.mozilla.org/ko/docs/Web/CSS/z-index "z-index mdn")
+
