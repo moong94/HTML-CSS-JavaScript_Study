@@ -1443,7 +1443,7 @@ Flex Items에 부여되는 속성
 
 ### Grid Function
 - repeat() : 행/열의 크기 정의를 반복
-    - repeat(반복 횟수, 행/열의 크기 정의)
+    - repeat(반복 횟수, 행/열의 크기)
     ```css
         .container {
             grid-template-rows: [row-start] 200px [row-end row-start] 200px [row-end];
@@ -1455,3 +1455,6 @@ Flex Items에 부여되는 속성
         }
     ```
     - [repeat() mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat() "repeat() mdn")
+- minmax() : 행/열의 '최소/최대 크기'를 정의
+    - minmax(최소크기, 최대크기)
+    - [minmax() mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax() "minmax() mdn")
