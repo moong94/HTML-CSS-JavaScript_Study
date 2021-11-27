@@ -1343,7 +1343,32 @@ Flex Items에 부여되는 속성
         - row dense(dense) : 각 행 축을 따라 차례로 배치, 빈 영역 메움
         - column dense : 각 열 축을 따라 차례로 배치, 빈 영역 메움
         - ![grid-auto-flow](../images/grid-auto-flow.png)
-
+- align-content : 그리드 콘텐츠를 수직(열 축) 정렬
+    - 그리드 콘텐츠의 세로 너비가 그리드 컨테이너보다 작아야 함.
+    - 값
+        - normal : stretch와 같음(기본값)
+        - start : 시작점(위쪽) 정렬
+        - center : 수직 가운데 정렬
+        - end : 끝점(아래쪽) 정렬
+        - space-around : 각 행 위아래에 여백을 고르게 정렬
+        - space-between : 첫 행은 시작점에, 끝 행은 끝점에 정렬되고 나머지 여백으로 고르게 정렬
+        - space-evenly : 모든 여백을 고르게 정렬
+        - stretch : 열 축을 채우기 위해 그리드 콘텐츠를 늘림
+    - ![grid-align-content](../images/grid-align-content.png)
+    - [align-content mdn](https://developer.mozilla.org/ko/docs/Web/CSS/align-content "align-content mdn")
+- justify-content : 그리드 콘텐츠를 수평(행 축) 정렬
+    - 그리드 콘텐츠의 가로 너비가 그리드 컨테이너보다 작아야 함.
+    - 값
+        - normal : stretch와 같음(기본값)
+        - start : 시작점(왼쪽) 정렬
+        - center : 수평 가운데 정렬
+        - end : 끝점(오른쪽) 정렬
+        - space-around : 각 열 위아래에 여백을 고르게 정렬
+        - space-between : 첫 열은 시작점에, 끝 열은 끝점에 정렬되고 나머지 여백으로 고르게 정렬
+        - space-evenly : 모든 여백을 고르게 정렬
+        - stretch : 행 축을 채우기 위해 그리드 콘텐츠를 늘림
+    - ![grid-justify-content](../images/grid-justify-content.png)
+    - [justify-content mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content "justify-content mdn")
 #
 
 ### Grid Items
