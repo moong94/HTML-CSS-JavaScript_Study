@@ -1439,3 +1439,19 @@ Flex Items에 부여되는 속성
     - 기본값 : 0
     - [z-index mdn](https://developer.mozilla.org/ko/docs/Web/CSS/z-index "z-index mdn")
 
+#
+
+### Grid Function
+- repeat() : 행/열의 크기 정의를 반복
+    - repeat(반복 횟수, 행/열의 크기 정의)
+    ```css
+        .container {
+            grid-template-rows: [row-start] 200px [row-end row-start] 200px [row-end];
+            grid-template-columns: [col-start] 100px [col-end col-start] 100px [col-end col-start] 100px [col-end];
+        }
+        /* 같은 의미 */
+        .container {
+            grid-template: repeat(2, [row-start] 200px [row-end] / repeat(3, [col-start] 100px [col-end]))
+        }
+    ```
+    - [repeat() mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat() "repeat() mdn")
