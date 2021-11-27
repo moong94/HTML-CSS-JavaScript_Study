@@ -1380,7 +1380,7 @@ Flex Items에 부여되는 속성
     - ![grid-align-items](../images/grid-align-items.png)
     - [align-items mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items "align-items mdn")
 - justify-items : 그리드 아이템 들을 수평(행 축) 정렬
-    - 그리드 아이템의 가로 너비가 자신이 속한 그리드 행(Track)의 크기보다 작아야 함.
+    - 그리드 아이템의 가로 너비가 자신이 속한 그리드 열(Track)의 크기보다 작아야 함.
     - 값
         - normal : stretch와 같음 (기본값)
         - start : 시작점(왼쪽) 정렬
@@ -1408,3 +1408,23 @@ Flex Items에 부여되는 속성
         }
     ```
     - [grid-area mdn](https://developer.mozilla.org/ko/docs/Web/CSS/grid-area "grid-area mdn")
+- align-self : 단일 그리드 아이템을 수직(열 축) 정렬
+    - 그리드 아이템의 세로 너비가 자신이 속한 그리드 행(Track)의 크기보다 작아야 함.
+    - 값
+        - normal : stretch와 같음 (기본값)
+        - start : 시작점(위쪽) 정렬
+        - center : 수직 가운데 정렬
+        - end : 끝점(아래쪽) 정렬
+        - stretch : 열 축을 채우기 위해 그리드 아이템을 늘림
+    - ![grid-align-self](../images/grid-aling-self.png)
+    - [align-self mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self "align-self mdn")
+- justify-self : 단일 그리드 아이템을 수평(행 축) 정렬
+    - 그리드 아이템의 가로 너비가 자신이 속한 그리드 열(Track)의 크기보다 작아야 함.
+    - 값
+        - normal : stretch와 같음 (기본값)
+        - start : 시작점(왼쪽) 정렬
+        - center : 수평 가운데 정렬
+        - end : 끝점(오른쪽) 정렬
+        - stretch : 행 축을 채우기 위해 그리드 아이템을 늘림
+    - ![grid-justify-self](../images/grid-justify-self.png)
+    - [justify-self mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self "justify-self mdn")
