@@ -1294,7 +1294,14 @@ Flex Items에 부여되는 속성
     - 명시적으로 지정된 열 밖에 배치되어 있는 열의 크기를 정의
     - 암시적 열은 양수 라인 번호만 사용 가능.
     - [grid-auto-columns mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns "grid-auto-columns mdn")
-    
+- grid-auto-flow : 배치하지 않은 Item을 어떠한 방식의 '자동 배치 알고리즘'으로 처리할지 정의
+    - 수직 정렬이나 수평 정렬과 비슷한 개념
+    - 값
+        - row : 각 행 축을 따라 차례로 배치(기본값)
+        - column : 각 열 축을 따라 차례로 배치
+        - row dense(dense) : 각 행 축을 따라 차례로 배치, 빈 영역 메움
+        - column dense : 각 열 축을 따라 차례로 배치, 빈 영역 메움
+        - ![grid-auto-flow](../images/grid-auto-flow.png)
 
 #
 
