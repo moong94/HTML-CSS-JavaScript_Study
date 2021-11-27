@@ -1475,6 +1475,12 @@ Flex Items에 부여되는 속성
 - max-content : 그리드 아이템이 포함하는 내용의 최소 크기를 의미
     - content가 최대한으로 표시되는 크기
     - [max-content mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/max-content "max-content mdn")
-
-#
-
+- auto-fill, auto-fit : 행/열의 개수를 그리드 컨테이너 및 행/열 크기에 맞게 자동으로(암시적) 조정
+    - repeat() 함수와 같이 사용
+    - 행/열과 아이템 개수가 명확할 필요가 없거나 명확하지 않을 경우 사용
+    - 필요한 경우 암시적으로 행/열이 추가됨.
+    - 차이
+        - 그리드 컨테이너가 하나의 행/열에 모든 아이템을 수용하고 남는 공간이 있을 때 차이 발생
+            - auto-fill은 남는 공간을 빈 트랙으로 그래도 유지
+            - auto-fit은 남는 공간을 축소
+            - ![auto-fill_auto-fit_differ](../images/auto-fill_auto-fit.png)

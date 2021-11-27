@@ -1,0 +1,12 @@
+.container {
+    width: 600px;
+    border: 10px solid lightgray;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-auto-rows: 100px;
+}
+
+.item {
+    border: 10px solid red;
+    font-size: 20px;
+}
