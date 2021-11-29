@@ -96,4 +96,33 @@ SASS(SCSS)는 웹에서 직접 동작할 수 없으므로 어디까지나 표준
         color:red;
     }
     ```
+- 중첩 벗어나기 (@at-root)
+    - 중첩 안에서 생성하되 중첩 밖에서 상용해야하는 경우에 유용
+    - 중첩 된 부분 안에서 필요한 부분을 사용하고 밖에서 중첩되지 않고 새로 생성
+    #### SCSS
+    ```scss
+    .list {
+        $w: 100px;
+        $h: 50px;
+        li {
+            width: $w;
+            height: $h;
+        }
+        @at-root .box {
+            width: $w;
+            height: $h;
+        }
+    }
+    ```
+    #### CSS
+    ```css
+    .list li {
+        width: 100px;
+        height: 50px;
+    }
+    .box {
+        width: 100px;
+        height: 50px;
+    }
+    ```
 
