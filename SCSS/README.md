@@ -157,3 +157,68 @@ SASS(SCSS)는 웹에서 직접 동작할 수 없으므로 어디까지나 표준
         padding-right: 40px;
     }
     ```
+
+#
+
+# 변수(Variables)
+- 반복적으로 사용되는 값을 변수로 지정할 수 있다.
+- 변수 이름 앞에는 항상 $를 붙임
+```scss
+$변수이름: 속성값;
+```
+- 변수 유효 범위
+    - 전역 변수가 아니면 선언된 블록({})내에서만 유효한 범위를 가짐
+- 변수 재 할당
+    - 다른 변수의 값을 받은 새로운 변수를 활용 가능
+- 전역설정 (!global)
+    - !global 플래그를 사용하면 변수의 유효범위를 전역으로 설정 가능
+    #### SCSS
+    ```scss
+    .box1 {
+        $color: #111 !global;
+        background: $color;
+    }
+    .box2 {
+        background: $color
+    }
+    ```
+    #### CSS
+    ```css
+    .box1 {
+        background: #111;
+        }
+
+        .box2 {
+        background: #111;
+    }
+    ```
+- 초기값 설정(!default)
+    - 할당되어있는 변수가 있다면 변수가 기존 할당 값을 사용
+    - 변수의 값을 설정하겠지만, 혹시 기존 변수가 있을 경우 현재 설정하는 변수의 값은 사용하지 않겠다는 의미
+    #### SCSS
+    ```scss
+    $color-primary: red;
+    .box {
+        $color-primary: blue !default;
+        background: $color-primary;
+    }
+    ```
+    #### CSS
+    ```css
+    .box {
+        background: red;
+    }
+    ```
+- 문자 보간(#{})
+    - 코드의 어디든지 변수 값을 넣을 수 있음
+    #### SCSS
+    ```scss
+    $family: unquote("Droid+Sans");
+    @import url("http://fonts.googleapis.com/css?family=#{$family}")
+    ```
+    #### CSS
+    ```css
+    @import url("http://fonts.googleapis.com/css?family=Droid+Sans");
+    ```
+    - unquote()는 SASS의 내장 함수로 문자에서 따옴표를 제거 함.
+    
