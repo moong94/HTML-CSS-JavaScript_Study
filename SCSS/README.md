@@ -36,8 +36,11 @@ SASS(SCSS)는 웹에서 직접 동작할 수 없으므로 어디까지나 표준
 - Numbers : 숫자
     - 숫자에 단위가 포함될 수 있음
 - Strings : 문자
+    - 문자에 따옴표가 포함될 수 있음
 - Colors : 색상 표현
 - Booleans : 논리형
 - Nulls : null
 - Lists : 공백이나 쉼표(,)로 구분된 값의 목록
+    - ()를 붙이거나 붙이지 않는다.
 - Maps : 딕셔너리 / Key: Value 형태
+    - ()를 꼭 붙여야 함.
