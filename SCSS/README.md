@@ -221,4 +221,23 @@ $변수이름: 속성값;
     @import url("http://fonts.googleapis.com/css?family=Droid+Sans");
     ```
     - unquote()는 SASS의 내장 함수로 문자에서 따옴표를 제거 함.
-    
+
+#
+
+# 가져오기(Import)
+@import로 외부에서 가져온 Sass 파일은 모두 단일 CSS 출력 파일로 병합됨.
+- 원래 CSS 규칙으로 컴파일되는 예외의 경우
+    - 파일 확장자가 .css일 때
+    - 파일이름이 http://로 시작하는 경우
+    - url()이 붙어있을 경우
+    - 미디어 쿼리가 있는 경우
+- 쉼표(,)로 구분하여 여러 파일음 import 가능
+    - @import "header", "footer";
+
+### 파일 분할(Partials)
+유지보수가 쉽도록 관리하기 위함.
+- 모든 파일이 컴파일시 각각의 ~.css 파일로 나눠서 저장되면 관리나 성능 차원에서 문제 발생 가능.
+- 파일 이름 앞에 _ 를 붙여 @import로 가져오면 컴파일 시 ~.css 파일로 컴파일하지 않는다.
+
+#
+
