@@ -44,3 +44,56 @@ SASS(SCSS)는 웹에서 직접 동작할 수 없으므로 어디까지나 표준
     - ()를 붙이거나 붙이지 않는다.
 - Maps : 딕셔너리 / Key: Value 형태
     - ()를 꼭 붙여야 함.
+
+#
+
+### 중첩(Nesting)
+상위 선택자의 반복을 피하고 좀 더 편리하게 복잡한 구조를 작성할 수 있음
+
+#### SCSS
+```scss
+.section {
+    width: 100px;
+    .list {
+        padding: 20px;
+        li {
+            float: left;
+        }
+    }
+}
+```
+
+#### CSS
+```css
+.section {
+    width: 100px;
+}
+.section .list {
+    padding: 20px;
+}
+.section .list .li {
+    float: left;
+}
+```
+
+- 상위 선택자 참조 (&)
+    - 자기 자신을 포함해서 참조하는 경우 유용하게 사용 가능
+    #### SCSS
+    ```scss
+    .btn {
+        position: absolute;
+        &:active {
+            color: red;
+        }
+    }
+    ```
+    #### CSS
+    ```css
+    .btn {
+        position: absolute;
+    }
+    .btn:active {
+        color:red;
+    }
+    ```
+
