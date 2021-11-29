@@ -125,4 +125,35 @@ SASS(SCSS)는 웹에서 직접 동작할 수 없으므로 어디까지나 표준
         height: 50px;
     }
     ```
-
+- 중첩된 속성
+    - font-, margin- 처럼 동일한 네임스페이스를 가지는 속성들을 중첩된 형태로 유용하게 사용 가능
+    #### SCSS
+    ```scss
+    .box {
+        font: {
+            weight: bold;
+            size: 10px;
+            family: sans-serif;
+        };
+        margin: {
+            top: 10px;
+            bottom: 20px;
+        };
+        padding: {
+            left : 20px;
+            right: 40px;
+        };
+    }
+    ```
+    #### CSS
+    ```css
+    .box {
+        font-weight: bold;
+        font-size: 10px;
+        font-family: sans-serif;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    ```
