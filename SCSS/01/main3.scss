@@ -1,0 +1,20 @@
+@mixin icon ($url) {
+    &::after {
+        content: $url;
+        @content;
+    }
+}
+
+.box1 {
+    @include icon("./image/icon.png")
+}
+
+
+.box2 {
+    @include icon("./image/icon.png"){
+        display:block;
+        position: absolute;
+        width:100px;
+        height:50px;
+    }
+}
