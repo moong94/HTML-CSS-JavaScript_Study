@@ -1,0 +1,10 @@
+.btn, .btn-danger {
+    padding: 10px;
+    margin: 10px;
+    background: blue;
+  }
+  
+  .btn-danger {
+    background: red;
+  }
+  
