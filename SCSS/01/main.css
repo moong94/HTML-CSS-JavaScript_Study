@@ -1,0 +1,5 @@
+div {
+    width: 100px;
+    height: 200px;
+    background: url("/images/a.png") no-repeat 10px 20px, url("/images/b.png") no-repeat, url("/images/c.png");
+}

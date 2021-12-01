@@ -1,0 +1,27 @@
+@mixin font(
+  $style: normal,
+  $weight: normal,
+  $size: 16px,
+  $family: sans-serif
+) {
+  font: {
+    style: $style;
+    weight: $weight;
+    size: $size;
+    family: $family;
+  }
+}
+div {
+  // 매개변수 순서와 개수에 맞게 전달
+  $font-values: italic, bold, 16px, sans-serif;
+  @include font($font-values...);
+}
+span {
+  // 필요한 값만 키워드 인수로 변수에 담아 전달
+  $font-values: (style: italic, size: 22px);
+  @include font($font-values...);
+}
+a {
+  // 필요한 값만 키워드 인수로 전달
+  @include font((weight: 900, family: monospace)...);
+}

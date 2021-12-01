@@ -1,0 +1,21 @@
+div {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+  
+  span {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: sans-serif;
+  }
+  
+  a {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    font-family: monospace;
+  }
+  
