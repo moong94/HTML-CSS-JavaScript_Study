@@ -1,0 +1,38 @@
+@function limitSize($size) {
+    @if ($size >= 0 and $size <= 200px) {
+        @return 200px;
+    } @else {
+        @return 800px;
+    }
+}
+
+div {
+    width: limitSize(180px);
+    height: limitSize(340px);
+}
+
+
+@mixin positionCenter ($w, $h, $p: absolute) {
+    @if ($p == absolute or $p == fixed or not $p == fixed or not $p == static){
+        width: if(unitless($w), #{$w}px, $w);
+        height: if(unitless($h), #{$h}px, $h);
+        position: $p;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+.box1 {
+    @include positionCenter(10px,20px);
+}
+
+.box2 {
+    @include positionCenter(50, 500, fixed);
+}
+
+.box3 {
+    @include positionCenter(100, 200, relative);
+}
