@@ -1,0 +1,9 @@
+$fruits: (apple, orange, banana, mango);
+
+.fruits {
+    @each $fruit in $fruits {
+        li.#{$fruit} {
+            background: url("/images/#{$fruit}.png");
+        }
+    }
+}
