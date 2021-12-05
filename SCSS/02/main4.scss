@@ -2,8 +2,21 @@ $fruits: (apple, orange, banana, mango);
 
 .fruits {
     @each $fruit in $fruits {
-        li.#{$fruit} {
+        $index: index($fruits, $fruit);
+        li:nth-child(#{$index}) {
             background: url("/images/#{$fruit}.png");
         }
+    }
+}
+
+$fruits-data: (
+    apple: korea,
+    orange: china,
+    banana: japan
+);
+
+@each $key, $value in $fruits-data {
+    .box-#{$key} {
+        background: url("/images/#{$value}.png");
     }
 }

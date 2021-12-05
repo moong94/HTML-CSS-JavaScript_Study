@@ -1,12 +1,24 @@
-.fruits li.apple {
+.fruits li:nth-child(1) {
     background: url("/images/apple.png");
   }
-  .fruits li.orange {
+  .fruits li:nth-child(2) {
     background: url("/images/orange.png");
   }
-  .fruits li.banana {
+  .fruits li:nth-child(3) {
     background: url("/images/banana.png");
   }
-  .fruits li.mango {
+  .fruits li:nth-child(4) {
     background: url("/images/mango.png");
+  }
+
+  .box-apple {
+    background: url("/images/korea.png");
+  }
+  
+  .box-orange {
+    background: url("/images/china.png");
+  }
+  
+  .box-banana {
+    background: url("/images/japan.png");
   }
