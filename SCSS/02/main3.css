@@ -1,0 +1,11 @@
+.through:nth-child(1) {
+    widht: 20px;
+  }
+  
+  .through:nth-child(2) {
+    widht: 40px;
+  }
+  
+  .through:nth-child(3) {
+    widht: 60px;
+  }
