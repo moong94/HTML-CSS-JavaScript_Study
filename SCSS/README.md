@@ -436,6 +436,11 @@ if 문과 유사하지만 추가 지시어를 사용하여 더 복잡한 조건�
 # Each (반복문)
 List와 Map 데이터를 반복할 때 사용
 ```scss
-@each $변수 in 데이터 {
+@each $변수 in List {
     // 반복내용
 }
+
+@each $key, $value in Map {
+    // 반복내용
+}
+```
