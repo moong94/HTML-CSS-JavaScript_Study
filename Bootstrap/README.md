@@ -31,3 +31,10 @@
 
 ### 폼
 [form docs](https://getbootstrap.com/docs/5.1/forms/overview/ "form docs")
+
+#
+
+### 네비게이션
+- 부트스트랩이 jQuery에 의존성이 있으므로 jQuery선언 후 사용해야 함.
+- [navs & tabs docs](https://getbootstrap.com/docs/5.1/components/navs-tabs/ "navs & tabs docs")
+- [navbar docs](https://getbootstrap.com/docs/5.1/components/navbar/ "navbar docs")
