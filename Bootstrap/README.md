@@ -15,14 +15,19 @@
 #
 
 ### 버튼
-[button component](https://getbootstrap.com/docs/5.1/components/buttons/ "button component")
+[button docs](https://getbootstrap.com/docs/5.1/components/buttons/ "button docs")
 
 #
 
 ### 테이블
-[table content](https://getbootstrap.com/docs/5.1/content/tables/ "table content")
+[table docs](https://getbootstrap.com/docs/5.1/content/tables/ "table docs")
 
 #
 
 ### 패널
-[panels component](https://getbootstrap.com/docs/3.4/components/#panels "panels component")
+[panels docs](https://getbootstrap.com/docs/3.4/components/#panels "panels docs")
+
+#
+
+### 폼
+[form docs](https://getbootstrap.com/docs/5.1/forms/overview/ "form docs")
