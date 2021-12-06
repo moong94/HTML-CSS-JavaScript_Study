@@ -1,5 +1,5 @@
 @for $i from 1 through 3 {
     .through:nth-child(#{$i}) {
-        widht: 20px * $i;
+        width: 20px * $i;
     }
 }
