@@ -46,3 +46,55 @@
 
 #
 
+# Variable(변수)
+변수를 선언하는 키워드 : let
+- let으로 변수를 선언하면 그 후 값을 할당할 수 있고, 선언과 동시에 값을 할당할 수 있다.
+
+#
+
+# Constant(상수)
+상수를 선언하는 키워드 : const
+- 상수는 한 번 값이 정해지면 다른 값으로 변경이 불가능하기 때문에 선언과 동시에 값을 할당해야 함.
+
+#
+
+# scope of variables(변수의 유효범위)
+- const, let의 유효범위 : 블록 스코프 ({})
+```javascript
+// 블럭
+{
+    // 블럭 안에서 선언한 변수는 블록 내부에서만 사용 가능
+    const name= "Mark";
+    console.log(name);
+}
+
+// 밖에서 안으로
+let age = 37;
+    // 블럭 밖에서 선언한 변수는 다른 블록 내에서 사용 가능
+{
+    age++;
+    console.log(age);
+}
+console.log(age);
+
+// 중첩
+// 중첩된 블록에서도 사용 가능
+{
+    {
+        {
+            console.log(age);
+        }
+    }
+}
+```
+- var의 유효범위 : 함수 스코프 (function() {})
+```javascript
+var a = 0;
+
+(function() {
+    a++;
+    console.log(a);
+})();
+
+console.log(a);
+```
