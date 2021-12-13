@@ -128,3 +128,41 @@ console.log(a);
 [JavaScript Data types mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures "JavaScript Data types mdn")
 
 #
+
+# Conditional Statements(조건문)
+표현식이 참으로 평가될 때, 실행되는 블럭
+- 블록에 코드가 한 줄이면 중괄호({})를 생략 가능.
+- 표현식이 거짓으로 평가될 때(Falsy)
+    - false
+    - ''
+    - 0
+    - null
+    - undefined
+    - NaN
+- 표현식이 참으로 평가될 때(Truethy)
+    - true
+    - 0이 아닌 숫자
+    - '문자열'
+    - null, undefined, NaN이 아닌 모든 객체
+- else {} : if에 해당하지 않을 때
+- else if {} : 이전 if에 해당하지 않고 다음 조건문에 충족하는 경우
+- 논리 연산자를 이용한 조건문 평가
+    - 논리 연산자를 이용해 조건부 실행
+    - && : AND
+    - || : OR
+    - ! : NOT
+- 삼항 연산자를 이용한 조건부 실행
+    - 조건 ? 참이면 실행되는 표현식 : 거짓이면 실행되는 표현식
+    - 중괄호를 사용할 수 없는 문법이기 때문에 하나의 표현식만 가능.
+    - 표현식의 결과를 변수에 할당할 수 있음.
+- switch를 이용한 조건문
+    - 특정 값들에 따라 분기되는 조건문
+    - switch 뒤 괄호 안에 있는 값이 무엇인지 중괄호 안에 있는 코드들을 비교해서 실행.
+    - default: 위에 있는 문장은 항상 참이어서 항상 실행되는 블럭
+    - 조건에 해당하는 값이 case의 조건인 경우 해당 블록을 실행.
+    
+#
+
+
+
+
