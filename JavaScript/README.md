@@ -98,3 +98,13 @@ var a = 0;
 
 console.log(a);
 ```
+
+#
+
+# var & hoisting
+- Hoisting : 함수의 선언보다 호출이 먼저 작성된 경우 아래에 작성되어 있는 함수 선언을 끌어올려 문제없이 작동되도록 하는 현상.
+- var로 선언하는 변수 역시 hoisting 되어 호출가능.
+[Hoisting mdn](https://developer.mozilla.org/ko/docs/Glossary/Hoisting "Hoisting mdn")
+
+#
+
