@@ -183,3 +183,59 @@ do {
     조건이 거짓이 될 때까지 반복 실행.
 } while (조건)
 ```
+#
+
+# Function(함수)
+- function 키워드 사용하여 함수 선언 (선언적 방식)
+```javascript
+function hello1() {}
+```
+- 함수를 특정한 변수에 담아서 생성가능 (익명함수에 할당하여 선언하는 방식)
+    - hoisting 불가능
+```javascript
+const hello = function() {}
+```
+- 생성자 함수로 함수를 만드는 방법
+```javascript
+const hello = new Function(문자열로 된 매개변수, ... , 함수의 바디);
+```
+- arrow 함수를 만들어 변수에 할당하는 방법 (항상 익명함수로 선언)
+```javascript
+const hello = () => {}
+```
+- 생성자 함수로 객체 생성
+    - this라는 context생성
+```javascript
+function hello(first, second, ...){
+    this.first = first;
+    this.second = second;
+    ...
+}
+
+const h = new hello(1,2,...);
+```
+- 함수 안에서 함수를 만들어 리턴
+```javascript
+function hello(hi) {
+    return function(how) {
+        return hi + how;
+    }
+}
+
+const H = hello("Hi");
+console.log(H("How"));
+```
+- 함수를 호출할 때, 인자로 함수를 사용
+```javascript
+function hello(c) {
+    console.log('hello');
+    c();
+}
+
+hello(function() {
+    console.log('콜백');
+})
+```
+
+#
+
