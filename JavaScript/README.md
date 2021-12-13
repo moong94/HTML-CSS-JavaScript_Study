@@ -108,3 +108,23 @@ console.log(a);
 
 #
 
+# Data Types(자료형)
+변수가 가지고 있는 값의 유형에 따라 변수의 자료형이 정해짐.
+- 변수가 가지는 고정 타입이 없다.
+- 기본타입(Primitive values)
+    - Boolean
+        - True & False
+    - Null
+        - 존재하지 않는 값
+    - Undefined
+        - 할당되지 않은 변수
+    - Number
+        - 모든 숫자 타입, NaN
+    - String
+        - 문자열, 템플릿 스트링
+    - Symbol
+        - 같은 인자를 넣어서 할당이 되더라도 각각 개별적인 symbol이 생성 됨.
+- 객체(Objects)
+[JavaScript Data types mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures "JavaScript Data types mdn")
+
+#
