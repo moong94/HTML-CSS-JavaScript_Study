@@ -1,5 +1,7 @@
 # Designable Developer
 
+![UX, UI, Usability, UCD](./images/UX_UI.jpg)
+
 ### UX
 > User Experience, *사용자 경험  
 > 시스템, 제품, 서비스를 사용하거나 사용을 예상하면서 도출된 사용자의 인식과 반응
@@ -26,4 +28,10 @@
 > - UX, UI, 사용성이 있어서 사용자를 중심으로 해야한다는 **철학**
 ---
 
+##  디자인 씽킹(Design Thinking)
+비즈니스 전략에 대한 요구를 충족시키기 위해 디자이너의 감수성과 작업방식을 이용하는 사고 방식  
+![design thinking](./images/design_thinking.jpg)
 
+
+#### 참고자료
+Feedly, 
