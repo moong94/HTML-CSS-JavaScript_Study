@@ -46,5 +46,11 @@
 ![design thinking](./images/design_thinking.jpg)
 
 
+### 비즈니스 모델(Business Model)
+기업 업부, 제품 및 서비스의 전달 방법, **이윤을 창출하는 방법**을 나타낸 모형
+- 비즈니스를 이해해야 디자인을 통해 이익을 창출해낼 수 있으므로 비즈니스 분석을 통해 비즈니스 이해를 위한 모델을 만들어낼 수 있어야한다.
+  - EX) [Lean Canvas](https://leanstack.com/lean-canvas)
+
+
 #### 참고자료
 Feedly, 
