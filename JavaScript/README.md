@@ -276,3 +276,48 @@ const moong = {
 
 #
 
+# DOM API
+Document Object Model, Application Programming Interface
+#### 자바스크립트로 HTML을 제어할 때 사용하는 여러가지 명령
+
+- Document : HTML에 들어있는 Object Model
+- Object Model : HTML에서 태그로 사용되는 여러 요소
+
+#
+
+- querySelector : HTML 요소 1개 찾기/검색
+    - 가장 먼저 찾은 요소 반환
+```javascript
+const boxEl = documnet.querySelector('.box');
+```
+- addEventListener : HTML 요소에 적용할 수 있는 메소드
+    - Event 영역 : 어떠한 이벤트가 일어났는지
+    - HANDLER : 이벤트 발생 시 실행할 메소드
+```javascript
+boxEl.addEventListener(EVENT, HANDLER);
+```
+- classList : 요소의 클래스 정보 객체 활용
+```javascript
+boxEl.classList.add('CLASS');
+boxEl.classList.remove('CLASS');
+```
+- querySelectorAll : HTML 요소 모두 찾기/검색
+    - 찾은 요소들을 배열 데이터와 같은 형태로 생성 
+```javascript
+const boxEl = document.querySelectorAll('.box');
+```
+- forEach : querySelectAll로 찾은 여러개의 요소를 반복해서 함수 실행
+    - ELEMENT : 반복중인 요소
+    - INDEX : 반복 중인 번호
+    - 익명 함수를 인수로 추가
+```javascript
+boxEls.forEach(function (ELEMENT, INDEX) {});
+```
+- textContent : 요소의 값을 얻거나 지정하는 용도
+```javascript
+// Getter, 값을 얻는 용도
+boxEl.textContent;
+
+// Setter, 값을 지정하는 용도
+boxEl.textContent = "Next Box";
+```
