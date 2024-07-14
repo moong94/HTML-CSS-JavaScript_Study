@@ -41,8 +41,11 @@
 # Comments(주석)
 - 소스 코드에서 프로그램에 영향을 주지 않고, 무시되는 부분
 - 보통은 소스코드를 이해할 수 있도록 돕는 역할로 사용
-- 한 줄 주석 (//)
-- 여러 줄 주석 (/* */)
+- 한 줄 주석 (// comment, /* comment */)
+- 여러 줄 주석 <br>
+   (/* <br>
+    \*<br/>
+    \* comment */)
 
 #
 
@@ -114,18 +117,34 @@ console.log(a);
 - 기본타입(Primitive values)
     - Boolean
         - True & False
+        - let 변수 = true;
+        - let 변수 = false;
     - Null
-        - 존재하지 않는 값
+        - 어떤 값이 의도적으로 비어있음
+        - let 변수 = null;
     - Undefined
         - 할당되지 않은 변수
+        - let 변수;
     - Number
         - 모든 숫자 타입, NaN
+        - let 변수 = 123;
+        - let 변수 = 1.23;
     - String
         - 문자열, 템플릿 스트링
+        - let 변수1 = "String";
+        - let 변수2 = 'String';
+        - let 변수3 = \`String ${변수2}\`; (보관법)
     - Symbol
         - 같은 인자를 넣어서 할당이 되더라도 각각 개별적인 symbol이 생성 됨.
-- 객체(Objects)
+    - 객체(Objects)
 [JavaScript Data types mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures "JavaScript Data types mdn")
+        - let 변수 = <br/>{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;key1: value1,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;key2: value2<br/>
+                };
+    - Array
+        - 하나의 변수에 여러 데이터를 순차적으로 저장
+        - let 변수 = ['data0','data1','data2']
 
 #
 
