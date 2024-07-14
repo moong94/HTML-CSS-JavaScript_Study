@@ -52,12 +52,17 @@
 # Variable(변수)
 변수를 선언하는 키워드 : let
 - let으로 변수를 선언하면 그 후 값을 할당할 수 있고, 선언과 동시에 값을 할당할 수 있다.
+- 같은 변수에 재할당 가능
 
 #
 
 # Constant(상수)
 상수를 선언하는 키워드 : const
 - 상수는 한 번 값이 정해지면 다른 값으로 변경이 불가능하기 때문에 선언과 동시에 값을 할당해야 함.
+- 같은 변수에 재할당 불가
+
+# Reserved Word(예약어)
+특별한 의미를 가지고 있어, 변수나 함수 이름등으로 사용할 수 없는 단어
 
 #
 
@@ -205,11 +210,12 @@ do {
 #
 
 # Function(함수)
-- function 키워드 사용하여 함수 선언 (선언적 방식)
+- function 키워드 사용하여 함수 선언 (선언적 방식 : 기명함수)
 ```javascript
 function hello1() {}
 ```
-- 함수를 특정한 변수에 담아서 생성가능 (익명함수에 할당하여 선언하는 방식)
+- 함수를 특정한 변수에 담아서 생성가능 (익명함수에 할당하여 표현하는 방식)
+- 함수 자체에 함수명이 없기 때문에 대부분 데이터로써 사용 됨.
     - hoisting 불가능
 ```javascript
 const hello = function() {}
@@ -254,6 +260,18 @@ function hello(c) {
 hello(function() {
     console.log('콜백');
 })
+```
+- 메소드: 객체 데이터 내부에 함수라는 하나의 데이터가 들어있는 경우
+```javascript
+const moong = {
+    name : 'moong',
+    age : '30',
+
+    //메소드(Method)
+    getName : function(){
+        return this.name;
+    }
+}
 ```
 
 #
