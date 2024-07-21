@@ -203,6 +203,7 @@ for (초기화; 반복 조건; 반복이 된 후 실행되는 코드) {
 while (조건) {
     조건이 거짓이 될 때까지 반복 실행.
 }
+
 do {
     조건이 거짓이 될 때까지 반복 실행.
 } while (조건)
@@ -321,3 +322,16 @@ boxEl.textContent;
 // Setter, 값을 지정하는 용도
 boxEl.textContent = "Next Box";
 ```
+
+#
+
+# Method Chaining(메소드 체이닝)
+사용하고자 하는 method들을 연결하여 사용
+
+```javascript
+const a = 'Hello~'
+const b = a.split('').reverse().join('');       //  메소드 체이닝...
+```
+#
+
+#
